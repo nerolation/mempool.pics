@@ -51,8 +51,8 @@ SideShift,beaverbuild,2212
 0x76f...d5e,beaverbuild,1994
 0x126...686,boba-builder,1992
 0x406...5ee,Flashbots,1976
-Across Protocol,rsync-builder,1975
 0xe3d...b9a,Flashbots,1975
+Across Protocol,rsync-builder,1975
 0xf40...06f,Flashbots,1940
 SideShift,rsync-builder,1906
 Across Protocol,Titan Builder,1762
@@ -75,8 +75,8 @@ Across Protocol,beaverbuild,1684
 0x82d...a4f,rsync-builder,1462
 0x104...737,rsync-builder,1456
 0xda8...205,rsync-builder,1450
-0xd7e...3b2,Titan Builder,1449
 0x56f...ace,rsync-builder,1449
+0xd7e...3b2,Titan Builder,1449
 0xbaa...843,rsync-builder,1439
 0xe92...341,rsync-builder,1432
 0xdf3...71d,rsync-builder,1419
@@ -101,8 +101,8 @@ Flashbots ,Flashbots Imposter,1321
 0x111...8d5,Titan Builder,1182
 0x111...2bf,rsync-builder,1178
 0x758...b16,Titan Builder,1173
-0x2b2...073,rsync-builder,1165
 0x3ef...c8b,rsync-builder,1165
+0x2b2...073,rsync-builder,1165
 0x111...dfb,Titan Builder,1157
 0x111...4b1,Titan Builder,1156
 0x461...34b,rsync-builder,1151
@@ -119,13 +119,13 @@ Flashbots ,Flashbots Imposter,1321
 0x9eb...eaf,rsync-builder,1089
 0x111...41f,rsync-builder,1087
 Boba Builder,boba-builder,1085
-0xd27...a53,rsync-builder,1078
 0x5fa...4d4,rsync-builder,1078
+0xd27...a53,rsync-builder,1078
 0x58a...836,rsync-builder,1073
 0xc8d...bfe,rsync-builder,1071
 0x3a6...9ca,rsync-builder,1069
-0xebe...255,rsync-builder,1066
 0xff5...77e,rsync-builder,1066
+0xebe...255,rsync-builder,1066
 0x6f0...926,rsync-builder,1064
 0x867...4d3,rsync-builder,1062
 0xa00...123,beaverbuild,1061
@@ -153,14 +153,14 @@ eth-builder ,eth-builder,1002
 0xb54...08f,rsync-builder,951
 SideShift,Flashbots,946
 0x4f0...e68,Titan Builder,945
-0xa06...7a3,rsync-builder,934
 0x0cf...7f3,Flashbots,934
+0xa06...7a3,rsync-builder,934
 MEV Builder,BuildAI ,924
 0xfc2...f7c,Flashbots,917
 0xa37...3e2,Flashbots,914
 0x315...eba,Flashbots,900
-0x000...af5,rsync-builder,884
 MEV Builder,rsync-builder,884
+0x000...af5,rsync-builder,884
 0xb54...08f,beaverbuild,874
 0xb54...08f,Titan Builder,871
 0xbf5...c2b,rsync-builder,860

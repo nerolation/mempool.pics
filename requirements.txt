@@ -17,6 +17,7 @@ dash-core-components==2.0.0
 dash-html-components==2.0.0
 dash-table==5.0.0
 db-dtypes==1.1.1
+gunicorn==21.2.0
 eth-abi==4.2.1
 eth-account==0.9.0
 eth-hash==0.5.2
