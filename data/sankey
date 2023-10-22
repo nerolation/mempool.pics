@@ -1,0 +1,201 @@
+address_from,builder,hc
+rsync-builder ,rsync-builder,47102
+beaverbuild ,beaverbuild,40174
+Titan Builder ,Titan Builder,39822
+0xae2...e13,beaverbuild,35992
+0xae2...e13,Titan Builder,34174
+0xae2...e13,rsync-builder,32826
+Flashbots ,Flashbots,18214
+0xfa1...69f,beaverbuild,10758
+0x77a...5d1,rsync-builder,10333
+0xae2...e13,Flashbots,9827
+0xfc2...f7c,beaverbuild,9335
+builder0x69 ,builder0x69,8184
+0x77a...5d1,beaverbuild,8027
+0x77a...5d1,Titan Builder,6480
+0x77a...5d1,Flashbots,6294
+0xae2...e13,builder0x69,5611
+0x202...62a,beaverbuild,5495
+0x406...5ee,rsync-builder,5423
+Faith Builder,f1b,5198
+0x202...62a,rsync-builder,5060
+0x406...5ee,beaverbuild,4744
+0x202...62a,Titan Builder,4543
+0x406...5ee,Titan Builder,4485
+0x93f...98c,beaverbuild,4159
+0x43e...672,beaverbuild,3714
+0x460...38d,beaverbuild,3693
+0xa15...94e,Titan Builder,3655
+0xae2...e13,Gambit Labs ,3584
+0x91a...728,rsync-builder,3214
+0xfa1...69f,Titan Builder,3110
+0xae2...e13,f1b,3094
+0x1c8...75a,beaverbuild,3079
+0xeca...456,beaverbuild,3062
+0xf9c...e68,Titan Builder,2996
+0xf9c...e68,beaverbuild,2897
+0x315...eba,rsync-builder,2773
+0xf9c...e68,rsync-builder,2666
+0xa5a...3c0,beaverbuild,2551
+0x76f...d5e,rsync-builder,2509
+MEV Builder,Gambit Labs ,2488
+0x36a...389,beaverbuild,2433
+0x91a...728,Titan Builder,2426
+0x315...eba,beaverbuild,2393
+SideShift,Titan Builder,2343
+0x76e...def,beaverbuild,2295
+0xfc2...f7c,Titan Builder,2243
+SideShift,beaverbuild,2212
+0x0ca...993,beaverbuild,2190
+0x77a...5d1,f1b,2022
+0x76f...d5e,beaverbuild,1994
+0x126...686,boba-builder,1992
+0x406...5ee,Flashbots,1976
+Across Protocol,rsync-builder,1975
+0xe3d...b9a,Flashbots,1975
+0xf40...06f,Flashbots,1940
+SideShift,rsync-builder,1906
+Across Protocol,Titan Builder,1762
+Across Protocol,beaverbuild,1684
+0x77a...5d1,builder0x69,1632
+0xd7e...3b2,rsync-builder,1605
+0x76f...d5e,Titan Builder,1589
+0xd6f...67c,rsync-builder,1576
+0xd7e...3b2,beaverbuild,1571
+0xf72...067,rsync-builder,1538
+0x91a...728,beaverbuild,1524
+0xc83...17c,rsync-builder,1508
+0x82f...131,rsync-builder,1505
+0x5c8...9fe,rsync-builder,1504
+0xad3...299,rsync-builder,1490
+0x9e4...3fd,rsync-builder,1482
+0x2bb...ce2,rsync-builder,1476
+0x6ab...fa1,rsync-builder,1474
+0x05c...01f,rsync-builder,1469
+0x82d...a4f,rsync-builder,1462
+0x104...737,rsync-builder,1456
+0xda8...205,rsync-builder,1450
+0xd7e...3b2,Titan Builder,1449
+0x56f...ace,rsync-builder,1449
+0xbaa...843,rsync-builder,1439
+0xe92...341,rsync-builder,1432
+0xdf3...71d,rsync-builder,1419
+0x000...af5,beaverbuild,1415
+0x1b5...f9c,Flashbots,1412
+0x26b...b2e,beaverbuild,1399
+KuCoin,Titan Builder,1370
+Flashbots ,Flashbots Imposter,1321
+0x111...2bf,beaverbuild,1321
+0x4f0...e68,rsync-builder,1303
+0x111...8d5,beaverbuild,1286
+0x111...41f,beaverbuild,1279
+0x111...dfb,beaverbuild,1258
+0x111...4b1,beaverbuild,1255
+0x111...f80,beaverbuild,1242
+0xdf3...71d,beaverbuild,1232
+0x111...f80,Titan Builder,1214
+0x111...8d5,rsync-builder,1205
+0x000...af5,Titan Builder,1189
+0x5c8...9fe,Titan Builder,1187
+0xfa1...69f,Flashbots,1183
+0x111...8d5,Titan Builder,1182
+0x111...2bf,rsync-builder,1178
+0x758...b16,Titan Builder,1173
+0x2b2...073,rsync-builder,1165
+0x3ef...c8b,rsync-builder,1165
+0x111...dfb,Titan Builder,1157
+0x111...4b1,Titan Builder,1156
+0x461...34b,rsync-builder,1151
+0x5c8...9fe,beaverbuild,1150
+0x111...f80,rsync-builder,1148
+0x111...4b1,rsync-builder,1148
+0x111...2bf,Titan Builder,1143
+0x8ec...778,rsync-builder,1136
+0x91a...728,Flashbots,1129
+0xbb0...98c,rsync-builder,1126
+0x111...dfb,rsync-builder,1101
+0x111...41f,Titan Builder,1100
+0x13c...50d,rsync-builder,1093
+0x9eb...eaf,rsync-builder,1089
+0x111...41f,rsync-builder,1087
+Boba Builder,boba-builder,1085
+0x5fa...4d4,rsync-builder,1078
+0xd27...a53,rsync-builder,1078
+0x58a...836,rsync-builder,1073
+0xc8d...bfe,rsync-builder,1071
+0x3a6...9ca,rsync-builder,1069
+0xff5...77e,rsync-builder,1066
+0xebe...255,rsync-builder,1066
+0x6f0...926,rsync-builder,1064
+0x867...4d3,rsync-builder,1062
+0xa00...123,beaverbuild,1061
+0x81d...824,rsync-builder,1059
+0xb36...6ce,rsync-builder,1054
+0xbf2...0dd,beaverbuild,1054
+0xa00...123,rsync-builder,1050
+0x24a...091,beaverbuild,1039
+0x202...62a,Flashbots,1038
+0xe9f...800,beaverbuild,1038
+0x12d...56c,rsync-builder,1035
+0x2c9...990,rsync-builder,1032
+0x513...046,rsync-builder,1031
+0xdf3...71d,Titan Builder,1023
+0xeaa...e51,rsync-builder,1021
+eth-builder ,eth-builder,1002
+0x758...b16,beaverbuild,993
+0x202...62a,builder0x69,989
+0x758...b16,rsync-builder,988
+0x13c...50d,beaverbuild,986
+0xbf5...c2b,Titan Builder,982
+0x235...0b2,rsync-builder,971
+0xae2...e13,boba-builder,964
+0xbf5...c2b,beaverbuild,962
+0xb54...08f,rsync-builder,951
+SideShift,Flashbots,946
+0x4f0...e68,Titan Builder,945
+0x0cf...7f3,Flashbots,934
+0xa06...7a3,rsync-builder,934
+MEV Builder,BuildAI ,924
+0xfc2...f7c,Flashbots,917
+0xa37...3e2,Flashbots,914
+0x315...eba,Flashbots,900
+MEV Builder,rsync-builder,884
+0x000...af5,rsync-builder,884
+0xb54...08f,beaverbuild,874
+0xb54...08f,Titan Builder,871
+0xbf5...c2b,rsync-builder,860
+0x899...bf1,Flashbots,855
+0x772...888,beaverbuild,851
+0x000...e21,rsync-builder,844
+0x4f0...e68,beaverbuild,842
+0x13c...50d,Titan Builder,829
+0x93f...98c,Titan Builder,828
+0x5e2...22f,rsync-builder,828
+0x1d8...f30,rsync-builder,824
+0x433...aeb,Titan Builder,810
+0xa00...123,Titan Builder,808
+0x49b...08b,rsync-builder,805
+0xecf...819,rsync-builder,804
+0x065...4a1,beaverbuild,804
+0x7ce...1ed,rsync-builder,796
+0xc71...481,rsync-builder,796
+0x55a...ef2,rsync-builder,793
+0x55d...e90,Titan Builder,783
+0x55d...e90,rsync-builder,781
+0x235...0b2,beaverbuild,776
+0xdf4...ce0,rsync-builder,775
+0x173...72e,Titan Builder,765
+0x173...72e,rsync-builder,754
+0x49b...08b,Titan Builder,754
+0xecf...819,beaverbuild,753
+0x000...e21,Titan Builder,751
+0x1d8...f30,Titan Builder,749
+0x772...888,rsync-builder,747
+0x79b...fa0,rsync-builder,744
+0x000...e21,beaverbuild,734
+0x1e9...490,Titan Builder,733
+0x24f...fc2,beaverbuild,729
+0xa37...3e2,rsync-builder,727
+0x433...aeb,beaverbuild,722
+0x43e...672,Titan Builder,719
+0x3f8...a05,beaverbuild,719
