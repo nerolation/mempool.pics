@@ -84,8 +84,8 @@ Across Protocol,beaverbuild,1684
 0x1b5...f9c,Flashbots,1412
 0x26b...b2e,beaverbuild,1399
 KuCoin,Titan Builder,1370
-Flashbots ,Flashbots Imposter,1321
 0x111...2bf,beaverbuild,1321
+Flashbots ,Flashbots Imposter,1321
 0x4f0...e68,rsync-builder,1303
 0x111...8d5,beaverbuild,1286
 0x111...41f,beaverbuild,1279
@@ -119,19 +119,19 @@ Flashbots ,Flashbots Imposter,1321
 0x9eb...eaf,rsync-builder,1089
 0x111...41f,rsync-builder,1087
 Boba Builder,boba-builder,1085
-0x5fa...4d4,rsync-builder,1078
 0xd27...a53,rsync-builder,1078
+0x5fa...4d4,rsync-builder,1078
 0x58a...836,rsync-builder,1073
 0xc8d...bfe,rsync-builder,1071
 0x3a6...9ca,rsync-builder,1069
-0xff5...77e,rsync-builder,1066
 0xebe...255,rsync-builder,1066
+0xff5...77e,rsync-builder,1066
 0x6f0...926,rsync-builder,1064
 0x867...4d3,rsync-builder,1062
 0xa00...123,beaverbuild,1061
 0x81d...824,rsync-builder,1059
-0xb36...6ce,rsync-builder,1054
 0xbf2...0dd,beaverbuild,1054
+0xb36...6ce,rsync-builder,1054
 0xa00...123,rsync-builder,1050
 0x24a...091,beaverbuild,1039
 0x202...62a,Flashbots,1038
@@ -153,14 +153,14 @@ eth-builder ,eth-builder,1002
 0xb54...08f,rsync-builder,951
 SideShift,Flashbots,946
 0x4f0...e68,Titan Builder,945
-0x0cf...7f3,Flashbots,934
 0xa06...7a3,rsync-builder,934
+0x0cf...7f3,Flashbots,934
 MEV Builder,BuildAI ,924
 0xfc2...f7c,Flashbots,917
 0xa37...3e2,Flashbots,914
 0x315...eba,Flashbots,900
-MEV Builder,rsync-builder,884
 0x000...af5,rsync-builder,884
+MEV Builder,rsync-builder,884
 0xb54...08f,beaverbuild,874
 0xb54...08f,Titan Builder,871
 0xbf5...c2b,rsync-builder,860
@@ -169,8 +169,8 @@ MEV Builder,rsync-builder,884
 0x000...e21,rsync-builder,844
 0x4f0...e68,beaverbuild,842
 0x13c...50d,Titan Builder,829
-0x93f...98c,Titan Builder,828
 0x5e2...22f,rsync-builder,828
+0x93f...98c,Titan Builder,828
 0x1d8...f30,rsync-builder,824
 0x433...aeb,Titan Builder,810
 0xa00...123,Titan Builder,808
@@ -185,8 +185,8 @@ MEV Builder,rsync-builder,884
 0x235...0b2,beaverbuild,776
 0xdf4...ce0,rsync-builder,775
 0x173...72e,Titan Builder,765
-0x173...72e,rsync-builder,754
 0x49b...08b,Titan Builder,754
+0x173...72e,rsync-builder,754
 0xecf...819,beaverbuild,753
 0x000...e21,Titan Builder,751
 0x1d8...f30,Titan Builder,749
