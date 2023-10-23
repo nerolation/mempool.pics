@@ -172,8 +172,8 @@ MEV Builder,rsync-builder,874
 0x13c...50d,Titan Builder,813
 0x5e2...22f,rsync-builder,805
 0xecf...819,rsync-builder,799
-0xc71...481,rsync-builder,796
 0x49b...08b,rsync-builder,796
+0xc71...481,rsync-builder,796
 0x7ce...1ed,rsync-builder,787
 0x93f...98c,Titan Builder,786
 0x55a...ef2,rsync-builder,778
@@ -190,8 +190,8 @@ MEV Builder,rsync-builder,874
 0x1d8...f30,Titan Builder,738
 0x49b...08b,Titan Builder,737
 0x000...e21,Titan Builder,733
-0x772...888,rsync-builder,728
 0x000...e21,beaverbuild,728
+0x772...888,rsync-builder,728
 0x24f...fc2,beaverbuild,718
 0x79b...fa0,rsync-builder,712
 0xa37...3e2,rsync-builder,704
