@@ -3,6 +3,7 @@
 
 body {
     margin: 0;
+    background-color: #eee;
 }
 
 .even-smaller-text {
@@ -28,7 +29,7 @@ body {
 
 .custom-button {
   background-color: white;
-  border: 1px solid #eee;
+  border: 1px solid #ddd;
   color: black;
     
 }

@@ -41,6 +41,12 @@ xof_over_time_builder_chart_mobile = load_chart("chart_xof_over_time_builder_mob
 xof_users_chart = load_chart("chart_xof_users")
 xof_users_chart_mobile = load_chart("chart_xof_users_mobile")
 
+xof_builder_mev_type_chart = load_chart("chart_xof_builder_mev_type")
+xof_builder_mev_type_chart_mobile = load_chart("chart_xof_builder_mev_type")
+
+mev_type_over_time_chart = load_chart("chart_mev_type_over_time")
+mev_type_over_time_chart_mobile = load_chart("chart_mev_type_over_time")
+
 BLACK = "rgb(26, 25, 25)"
 BLACK_ALPHA = "rgba(26, 25, 25, {})"
 
@@ -131,7 +137,7 @@ app.layout = html.Div(
                         width={"size": 6, "order": 1}
                     ),
 
-                ], className="animated fadeInUp", style={"marginBottom": "0px", "paddingBottom": "0px", 'backgroundColor': '#ecf0f1', 'fontFamily': 'Ubuntu Mono, monospace'}),
+                ], className="animated fadeInUp", style={"marginBottom": "0px", "paddingBottom": "0px", 'backgroundColor': '#eee', 'fontFamily': 'Ubuntu Mono, monospace'}),
             ]),
             
             html.Div([
@@ -157,6 +163,10 @@ app.layout = html.Div(
             dbc.Row(dbc.Col(dcc.Graph(id='xof_over_time_builder_graph', figure=xof_over_time_builder_chart), md=12, className="mb-4 animated fadeIn")),
             dbc.Row(dbc.Col(dcc.Graph(id='xof_builder_graph', figure=xof_builder_chart), md=12, className="mb-4 animated fadeIn")),
             dbc.Row(dbc.Col(dcc.Graph(id='xof_users_graph', figure=xof_users_chart), md=12, className="mb-4 animated fadeIn")),
+            
+            dbc.Row(dbc.Col(dcc.Graph(id='xof_builder_mev_type_graph', figure=xof_builder_mev_type_chart), md=12, className="mb-4 animated fadeIn")),
+            dbc.Row(dbc.Col(dcc.Graph(id='mev_type_over_time_graph', figure=mev_type_over_time_chart), md=12, className="mb-4 animated fadeIn")),
+            
             dbc.Row(dbc.Col(dcc.Graph(id='inclusion_delay_graph', figure=inclusion_delay_chart), md=12, className="mb-4 animated fadeIn")),
             dbc.Row(dbc.Col(dcc.Graph(id='sankeygraph', figure=sankey_chart), md=12, className="mb-4 animated fadeIn")),
 
