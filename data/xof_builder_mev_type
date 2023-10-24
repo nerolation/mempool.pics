@@ -1,0 +1,49 @@
+builder,slot,public_share,mev_type,mev_type_count
+Flashbots Imposter,859,0.0,sandwich,1245
+f1b,2981,0.0,sandwich,4129
+builder0x69,5476,0.0,sandwich,7379
+BuildAI ,692,0.0,sandwich,1004
+Flashbots,10112,0.0,sandwich,14056
+Gambit Labs ,2713,0.0,sandwich,3683
+Titan Builder,28994,0.0,sandwich,40213
+rsync-builder,33203,0.0,sandwich,45112
+beaverbuild,31323,0.0,sandwich,47561
+BloXroute,408,0.0,sandwich,511
+rsync-builder,33203,0.0,backrun,38590
+Flashbots,10112,0.0,backrun,12976
+beaverbuild,31322,0.0,backrun,38879
+builder0x69,5476,0.0,backrun,6181
+Titan Builder,28994,0.0,backrun,33275
+f1b,2981,0.0,backrun,3903
+BloXroute,408,0.0,backrun,486
+Gambit Labs ,2713,0.0,backrun,3123
+Flashbots Imposter,859,0.0,backrun,1084
+BuildAI ,692,0.0,backrun,821
+Gambit Labs ,2713,0.0,frontrun,3109
+beaverbuild,31323,0.0,frontrun,38689
+rsync-builder,33203,0.0,frontrun,38427
+BloXroute,408,0.0,frontrun,486
+BuildAI ,692,0.0,frontrun,817
+Flashbots,10112,0.0,frontrun,12974
+Titan Builder,28994,0.0,frontrun,33134
+builder0x69,5476,0.0,frontrun,6147
+f1b,2981,0.0,frontrun,3902
+Flashbots Imposter,859,0.0,frontrun,1084
+builder0x69,957,0.0,arb,1080
+BloXroute,159,0.0,arb,178
+rsync-builder,6672,0.0,arb,7747
+Flashbots Imposter,285,0.0,arb,346
+Gambit Labs ,236,0.0,arb,251
+Titan Builder,5040,0.0,arb,6036
+f1b,482,0.0,arb,522
+BuildAI ,444,0.0,arb,590
+beaverbuild,6120,0.0,arb,7269
+Flashbots,2184,0.0,arb,2403
+rsync-builder,138,0.0,liquid,161
+beaverbuild,104,0.0,liquid,123
+Titan Builder,50,0.0,liquid,57
+Flashbots,41,0.0,liquid,44
+builder0x69,13,0.0,liquid,14
+f1b,5,0.0,liquid,5
+BloXroute,3,0.0,liquid,3
+Flashbots Imposter,1,0.0,liquid,1
