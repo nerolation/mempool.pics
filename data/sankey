@@ -39,8 +39,8 @@ Faith Builder,f1b,5465
 0x43e...672,beaverbuild,4432
 0x460...38d,beaverbuild,4380
 0x974...400,rsync-builder,3889
-0xeca...456,beaverbuild,3867
 0x1c8...75a,beaverbuild,3867
+0xeca...456,beaverbuild,3867
 0x16d...9a4,beaverbuild,3786
 0xf89...a40,rsync-builder,3681
 0x315...eba,rsync-builder,3598
@@ -136,21 +136,21 @@ Flashbots ,Flashbots Imposter,1741
 0x000...af5,beaverbuild,1546
 0x111...41f,beaverbuild,1543
 0xc83...17c,rsync-builder,1543
-0x2c1...ca7,beaverbuild,1537
 0x24a...091,beaverbuild,1537
 0x6ab...fa1,rsync-builder,1537
+0x2c1...ca7,beaverbuild,1537
 0x82f...131,rsync-builder,1524
 0x05c...01f,rsync-builder,1519
 0x2bb...ce2,rsync-builder,1515
-0xad3...299,rsync-builder,1510
 0x56e...17f,Titan Builder,1510
+0xad3...299,rsync-builder,1510
 KuCoin,Titan Builder,1504
 0x56f...ace,rsync-builder,1498
 0x042...8b3,beaverbuild,1494
 0x111...8d5,rsync-builder,1490
 0xda8...205,rsync-builder,1488
-0x91a...728,Flashbots,1486
 0x104...737,rsync-builder,1486
+0x91a...728,Flashbots,1486
 0x82d...a4f,rsync-builder,1476
 0x111...2bf,rsync-builder,1473
 0x943...af8,rsync-builder,1468
@@ -161,8 +161,8 @@ KuCoin,Titan Builder,1504
 0x608...e80,rsync-builder,1439
 0x58a...836,rsync-builder,1434
 0x352...092,Titan Builder,1431
-0x111...4b1,rsync-builder,1430
 0xdf3...71d,beaverbuild,1430
+0x111...4b1,rsync-builder,1430
 0xc8d...bfe,rsync-builder,1429
 0x3a6...9ca,rsync-builder,1427
 0x6f0...926,rsync-builder,1426
@@ -173,8 +173,8 @@ KuCoin,Titan Builder,1504
 0x264...7b5,beaverbuild,1416
 0x867...4d3,rsync-builder,1411
 0x13c...50d,rsync-builder,1407
-0xcfc...b33,rsync-builder,1404
 0x111...f80,rsync-builder,1404
+0xcfc...b33,rsync-builder,1404
 0x513...046,rsync-builder,1401
 0xff5...77e,rsync-builder,1395
 0xeaa...e51,rsync-builder,1392
