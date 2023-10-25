@@ -3,19 +3,19 @@ Flashbots Imposter,1,0.0,liquid,1
 edennetwork,1,0.0,liquid,1
 eth-builder,1,0.0,liquid,1
 antbuilder,2,0.0,arb,2
-BloXroute,3,0.0,liquid,3
 boba-builder,2,0.0,liquid,3
+BloXroute,3,0.0,liquid,3
 f1b,5,0.0,liquid,5
 nfactorial,6,0.0,arb,7
 builder0x69,10,0.0,liquid,11
 edennetwork,10,0.0,arb,12
 Blocknative,12,0.0,arb,13
-0x83bee51799e6513...,15,0.0,frontrun,15
 0x83bee51799e6513...,15,0.0,backrun,15
+0x83bee51799e6513...,15,0.0,frontrun,15
 0x83bee51799e6513...,15,0.0,sandwich,18
 antbuilder,19,0.0,backrun,21
-antbuilder,19,0.0,frontrun,21
 antbuilder,19,0.0,sandwich,21
+antbuilder,19,0.0,frontrun,21
 Flashbots,39,0.0,liquid,42
 Geth Go,32,0.0,backrun,44
 Geth Go,32,0.0,frontrun,44
@@ -57,13 +57,13 @@ BuildAI ,445,0.0,arb,593
 eth-builder,432,0.0,sandwich,624
 BuildAI ,690,0.0,frontrun,812
 BuildAI ,690,0.0,backrun,816
-boba-builder,706,0.0,frontrun,985
 boba-builder,706,0.0,backrun,985
+boba-builder,706,0.0,frontrun,985
 BuildAI ,690,0.0,sandwich,991
 builder0x69,925,0.0,arb,1044
 boba-builder,706,0.0,sandwich,1056
-Flashbots Imposter,881,0.0,frontrun,1112
 Flashbots Imposter,881,0.0,backrun,1112
+Flashbots Imposter,881,0.0,frontrun,1112
 Flashbots Imposter,881,0.0,sandwich,1273
 Flashbots,2217,0.0,arb,2438
 Gambit Labs ,2748,0.0,frontrun,3151
