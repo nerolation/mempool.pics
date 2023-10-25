@@ -1,7 +1,7 @@
 address_from,mev_type,mev_type_count
+Binance 15,liquid,11
 builder0x69,liquid,11
-Binance 15,liquid,12
-Binance 14,liquid,12
+Binance 14,liquid,11
 0x76f...d5e,liquid,18
 Across Protocol,liquid,20
 0xfc2...f7c,liquid,21
@@ -11,91 +11,91 @@ Across Protocol,liquid,20
 SideShift,liquid,29
 0x315...eba,liquid,32
 0xfa1...69f,liquid,33
-0x77a...5d1,liquid,37
+0x77a...5d1,liquid,36
 0xd7e...3b2,liquid,37
 Flashbots,liquid,43
 Titan Builder,liquid,45
-0x406...5ee,liquid,68
+0x406...5ee,liquid,67
 beaverbuild,liquid,120
 0xae2...e13,liquid,137
-rsync-builder,liquid,157
-Binance 15,arb,744
-Binance 14,arb,753
-builder0x69,arb,1040
-Across Protocol,arb,1107
-0xa00...123,arb,1152
-SideShift,arb,1469
-0x315...eba,arb,1511
-0xfc2...f7c,arb,1900
-0x91a...728,arb,2058
-0xfa1...69f,arb,2110
-0x77a...5d1,arb,2471
-0x202...62a,arb,2696
-Flashbots,arb,2731
-0xd7e...3b2,arb,2857
-Binance 15,frontrun,3002
-Binance 15,backrun,3007
-Binance 14,frontrun,3222
-Binance 14,backrun,3228
-Binance 15,sandwich,3344
-Binance 14,sandwich,3562
-0x406...5ee,arb,3671
-0xa00...123,frontrun,4320
-0xa00...123,backrun,4339
-0xd7e...3b2,frontrun,5010
-0x76f...d5e,arb,5017
-0xd7e...3b2,backrun,5020
-0xa00...123,sandwich,5116
-Titan Builder,arb,5236
-0xd7e...3b2,sandwich,5769
-Across Protocol,frontrun,5814
-Across Protocol,backrun,5830
-builder0x69,frontrun,6005
-builder0x69,backrun,6038
-0x315...eba,frontrun,6316
-0x315...eba,backrun,6340
-Across Protocol,sandwich,6815
-builder0x69,sandwich,7174
-beaverbuild,arb,7307
-0x76f...d5e,frontrun,7348
-0x76f...d5e,backrun,7379
-0x315...eba,sandwich,7407
-SideShift,frontrun,7496
-SideShift,backrun,7525
-rsync-builder,arb,7625
-0x76f...d5e,sandwich,8311
-0x91a...728,frontrun,8747
-0x91a...728,backrun,8778
-SideShift,sandwich,8918
-0xfc2...f7c,frontrun,9287
-0xfc2...f7c,backrun,9324
-0x91a...728,sandwich,10140
-0xae2...e13,arb,10939
-0xfa1...69f,frontrun,11090
-0xfc2...f7c,sandwich,11107
-0xfa1...69f,backrun,11133
-0xfa1...69f,sandwich,13179
-0x202...62a,frontrun,13214
-0x202...62a,backrun,13275
-Flashbots,frontrun,14020
-Flashbots,backrun,14022
-Flashbots,sandwich,15232
-0x406...5ee,frontrun,16146
-0x406...5ee,backrun,16199
-0x202...62a,sandwich,17061
-0x406...5ee,sandwich,18655
-0x77a...5d1,frontrun,24340
-0x77a...5d1,backrun,24350
-0x77a...5d1,sandwich,27392
-Titan Builder,frontrun,27615
-Titan Builder,backrun,27735
-Titan Builder,sandwich,33309
-rsync-builder,frontrun,37745
-rsync-builder,backrun,37906
-beaverbuild,frontrun,38543
-beaverbuild,backrun,38737
-rsync-builder,sandwich,44320
-beaverbuild,sandwich,47223
-0xae2...e13,frontrun,78487
-0xae2...e13,backrun,78808
-0xae2...e13,sandwich,89682
+rsync-builder,liquid,156
+Binance 15,arb,821
+Binance 14,arb,826
+builder0x69,arb,1041
+Across Protocol,arb,1111
+0xa00...123,arb,1162
+SideShift,arb,1476
+0x315...eba,arb,1536
+0xfc2...f7c,arb,1902
+0x91a...728,arb,2088
+0xfa1...69f,arb,2116
+0x77a...5d1,arb,2479
+0x202...62a,arb,2704
+Flashbots,arb,2746
+0xd7e...3b2,arb,2867
+Binance 15,frontrun,3368
+Binance 15,backrun,3373
+Binance 14,frontrun,3582
+Binance 14,backrun,3588
+0x406...5ee,arb,3686
+Binance 15,sandwich,3736
+Binance 14,sandwich,3948
+0xa00...123,frontrun,4359
+0xa00...123,backrun,4378
+0xd7e...3b2,frontrun,5021
+0xd7e...3b2,backrun,5031
+0x76f...d5e,arb,5055
+0xa00...123,sandwich,5157
+Titan Builder,arb,5244
+0xd7e...3b2,sandwich,5780
+Across Protocol,frontrun,5843
+Across Protocol,backrun,5859
+builder0x69,frontrun,6020
+builder0x69,backrun,6053
+0x315...eba,frontrun,6366
+0x315...eba,backrun,6390
+Across Protocol,sandwich,6839
+builder0x69,sandwich,7189
+beaverbuild,arb,7351
+0x76f...d5e,frontrun,7382
+0x76f...d5e,backrun,7413
+0x315...eba,sandwich,7463
+SideShift,frontrun,7532
+SideShift,backrun,7561
+rsync-builder,arb,7669
+0x76f...d5e,sandwich,8346
+0x91a...728,frontrun,8899
+0x91a...728,backrun,8930
+SideShift,sandwich,8956
+0xfc2...f7c,frontrun,9307
+0xfc2...f7c,backrun,9344
+0x91a...728,sandwich,10308
+0xae2...e13,arb,10985
+0xfa1...69f,frontrun,11104
+0xfc2...f7c,sandwich,11129
+0xfa1...69f,backrun,11147
+0xfa1...69f,sandwich,13193
+0x202...62a,frontrun,13259
+0x202...62a,backrun,13320
+Flashbots,frontrun,14091
+Flashbots,backrun,14093
+Flashbots,sandwich,15309
+0x406...5ee,frontrun,16196
+0x406...5ee,backrun,16249
+0x202...62a,sandwich,17112
+0x406...5ee,sandwich,18710
+0x77a...5d1,frontrun,24377
+0x77a...5d1,backrun,24387
+0x77a...5d1,sandwich,27432
+Titan Builder,frontrun,27664
+Titan Builder,backrun,27784
+Titan Builder,sandwich,33360
+rsync-builder,frontrun,37889
+rsync-builder,backrun,38050
+beaverbuild,frontrun,38679
+beaverbuild,backrun,38873
+rsync-builder,sandwich,44471
+beaverbuild,sandwich,47364
+0xae2...e13,frontrun,78752
+0xae2...e13,backrun,79073
+0xae2...e13,sandwich,89955
