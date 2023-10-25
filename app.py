@@ -47,6 +47,10 @@ xof_builder_mev_type_chart_mobile = load_chart("chart_xof_builder_mev_type_mobil
 mev_type_over_time_chart = load_chart("chart_mev_type_over_time")
 mev_type_over_time_chart_mobile = load_chart("chart_mev_type_over_time_mobile")
 
+xof_types_users_chart = load_chart("chart_xof_types_users")
+xof_types_users_chart_mobile = load_chart("chart_xof_types_users_mobile")
+
+
 BLACK = "rgb(26, 25, 25)"
 BLACK_ALPHA = "rgba(26, 25, 25, {})"
 
@@ -152,7 +156,7 @@ app.layout = html.Div(
 
                     dbc.Col([
                         html.H4("What is private orderflow", style={'textAlign': 'left', 'color': '#2c3e50', 'fontFamily': 'Ubuntu Mono, monospace'}),
-                         dcc.Markdown("""**Private Orderflow** refers to transactions that are not broadcasted over the public P2P network. Instead, these transactions are sent directly to the block builder. This approach requires a secure communication channel between the user and the block builder but offers the benefit of shielding the transaction from being exploited by searchers scanning the public mempool. In practical terms, systems for private deals or auctions can be set up. These systems allow the block builder to capture a portion of the MEV, while the remaining value is returned to the user. For the data presented on this website, [Blocknatives' public mempool data](https://docs.blocknative.com/mempool-data-program) was used to identify transactions that have been publicly broadcasted over the P2P network.""", 
+                         dcc.Markdown("""**Private Orderflow** refers to transactions that are not broadcasted over the public P2P network. Instead, these transactions are sent directly to the block builder. This approach requires a secure communication P2P network but directly submitted to a block builder. For the data presented on this website, [Blocknatives' public mempool data](https://docs.blocknative.com/mempool-data-program) was used to identify transactions that have been publicly broadcasted over the P2P network. To tell if a tx is a frontrun, backrun, arb, etc. the [ZeroMev API](https://info.zeromev.org/api.html) was used.""", 
                                       style={'textAlign': 'left', 'color': '#262525','fontFamily': 'Ubuntu Mono, monospace'}),
                     ], className="mb-2 even-even-smaller-text", md=6)
                 ])
@@ -165,6 +169,7 @@ app.layout = html.Div(
             dbc.Row(dbc.Col(dcc.Graph(id='xof_users_graph', figure=xof_users_chart), md=12, className="mb-4 animated fadeIn")),
             
             dbc.Row(dbc.Col(dcc.Graph(id='xof_builder_mev_type_graph', figure=xof_builder_mev_type_chart), md=12, className="mb-4 animated fadeIn")),
+            dbc.Row(dbc.Col(dcc.Graph(id='xof_types_users_chart_graph', figure=xof_types_users_chart), md=12, className="mb-4 animated fadeIn")),
             dbc.Row(dbc.Col(dcc.Graph(id='mev_type_over_time_graph', figure=mev_type_over_time_chart), md=12, className="mb-4 animated fadeIn")),
             
             dbc.Row(dbc.Col(dcc.Graph(id='inclusion_delay_graph', figure=inclusion_delay_chart), md=12, className="mb-4 animated fadeIn")),
@@ -307,6 +312,20 @@ def update_layout8(window_size_data):
     if width <= 800:
         return mev_type_over_time_chart_mobile
     return mev_type_over_time_chart
+    
+    
+@app.callback(
+    Output('xof_types_users_chart_graph', 'figure'),
+    Input('window-size-store', 'data')
+)
+def update_layout9(window_size_data):
+    if window_size_data is None:
+        raise dash.exceptions.PreventUpdate
+    width = window_size_data['width']
+    print(width)
+    if width <= 800:
+        return xof_types_users_chart_mobile
+    return xof_types_users_chart
     
 
 if __name__ == '__main__':

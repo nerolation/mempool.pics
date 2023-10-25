@@ -83,8 +83,8 @@ Binance 18,beaverbuild,1933
 Across Protocol,Titan Builder,1882
 0xd7e...3b2,beaverbuild,1846
 0xa00...123,beaverbuild,1839
-0x5c8...9fe,rsync-builder,1837
 0xd6f...67c,rsync-builder,1837
+0x5c8...9fe,rsync-builder,1837
 Flashbots ,Flashbots Imposter,1790
 0x1b5...f9c,Flashbots,1760
 0x042...8b3,beaverbuild,1747
@@ -106,8 +106,8 @@ Binance 20,rsync-builder,1541
 0x111...4b1,beaverbuild,1538
 Stake.com,beaverbuild,1532
 0x6ab...fa1,rsync-builder,1531
-0x111...dfb,beaverbuild,1530
 0x111...f80,beaverbuild,1530
+0x111...dfb,beaverbuild,1530
 0x9eb...eaf,rsync-builder,1529
 0xc83...17c,rsync-builder,1525
 0x111...41f,beaverbuild,1524
@@ -117,9 +117,9 @@ Stake.com,beaverbuild,1532
 0x82f...131,rsync-builder,1508
 Binance 14,Titan Builder,1508
 0x6f0...926,rsync-builder,1507
-0x05c...01f,rsync-builder,1506
-0x58a...836,rsync-builder,1506
 0x81d...824,rsync-builder,1506
+0x58a...836,rsync-builder,1506
+0x05c...01f,rsync-builder,1506
 0xc8d...bfe,rsync-builder,1502
 0x2bb...ce2,rsync-builder,1498
 0xad3...299,rsync-builder,1495
@@ -127,8 +127,8 @@ Binance 14,Titan Builder,1508
 0xebe...255,rsync-builder,1491
 0x5fa...4d4,rsync-builder,1485
 0x91a...728,Flashbots,1484
-0x867...4d3,rsync-builder,1482
 0x56f...ace,rsync-builder,1482
+0x867...4d3,rsync-builder,1482
 0xda8...205,rsync-builder,1481
 0x111...8d5,rsync-builder,1477
 0x104...737,rsync-builder,1473
@@ -144,8 +144,8 @@ Binance 14,Titan Builder,1508
 KuCoin,Titan Builder,1426
 0x111...4b1,rsync-builder,1426
 0x3ef...c8b,rsync-builder,1423
-0xbaa...843,rsync-builder,1419
 0xe92...341,rsync-builder,1419
+0xbaa...843,rsync-builder,1419
 0xdf3...71d,beaverbuild,1409
 0x8ec...778,rsync-builder,1399
 0x111...f80,rsync-builder,1397
@@ -154,8 +154,8 @@ OKX,rsync-builder,1380
 0x111...dfb,rsync-builder,1379
 0x111...41f,rsync-builder,1374
 0x461...34b,rsync-builder,1367
-0x381...969,rsync-builder,1366
 0x5c8...9fe,beaverbuild,1366
+0x381...969,rsync-builder,1366
 0xbb0...98c,rsync-builder,1351
 SHARP Blockchain ...,beaverbuild,1334
 0x111...f80,Titan Builder,1327
@@ -167,8 +167,8 @@ Binance 15,Titan Builder,1317
 0x49b...08b,rsync-builder,1307
 0xa37...3e2,Flashbots,1306
 0x5e2...22f,rsync-builder,1298
-0xecf...819,rsync-builder,1294
 0x111...2bf,Titan Builder,1294
+0xecf...819,rsync-builder,1294
 0x55d...e90,rsync-builder,1287
 0x111...4b1,Titan Builder,1280
 0xb54...08f,rsync-builder,1275
