@@ -42,10 +42,10 @@ xof_users_chart = load_chart("chart_xof_users")
 xof_users_chart_mobile = load_chart("chart_xof_users_mobile")
 
 xof_builder_mev_type_chart = load_chart("chart_xof_builder_mev_type")
-xof_builder_mev_type_chart_mobile = load_chart("chart_xof_builder_mev_type")
+xof_builder_mev_type_chart_mobile = load_chart("chart_xof_builder_mev_type_mobile")
 
 mev_type_over_time_chart = load_chart("chart_mev_type_over_time")
-mev_type_over_time_chart_mobile = load_chart("chart_mev_type_over_time")
+mev_type_over_time_chart_mobile = load_chart("chart_mev_type_over_time_mobile")
 
 BLACK = "rgb(26, 25, 25)"
 BLACK_ALPHA = "rgba(26, 25, 25, {})"
@@ -70,14 +70,14 @@ app.index_string = '''
         <meta name="twitter:site" content="@nero_ETH">
         <meta name="twitter:title" content="Ethereum mempool Dashboard">
         <meta name="twitter:description" content="Selected comparative visualizations on Ethereum's mempool.">
-        <meta name="twitter:image" content="https://raw.githubusercontent.com/nerolation/mempool.pics/main/assets/mempool.jpg">
+        <meta name="twitter:image" content="https://raw.githubusercontent.com/nerolation/mempool.pics/main/assets/mempool.png">
         <meta property="og:title" content="mempool.pics" relay="" api="" dashboard="">
         <meta property="og:site_name" content="mempool.pics">
         <meta property="og:url" content="mempool.pics">
         <meta property="og:description" content="Selected comparative visualizations on Ethereum's mempool.">
         <meta property="og:type" content="website">
-        <link rel="shortcut icon" href="https://raw.githubusercontent.com/nerolation/mempool.pics/main/assets/mempool.jpg">
-        <meta property="og:image" content="https://raw.githubusercontent.com/nerolation/mempool.pics/main/assets/mempool.jpg">
+        <link rel="shortcut icon" href="https://raw.githubusercontent.com/nerolation/mempool.pics/main/assets/mempool.png">
+        <meta property="og:image" content="https://raw.githubusercontent.com/nerolation/mempool.pics/main/assets/mempool.png">
         <meta name="description" content="Selected comparative visualizations on Ethereum's mempool.">
         <meta name="keywords" content="Ethereum, mempool, Dashboard">
         <meta name="author" content="Toni Wahrstätter">
@@ -156,7 +156,7 @@ app.layout = html.Div(
                                       style={'textAlign': 'left', 'color': '#262525','fontFamily': 'Ubuntu Mono, monospace'}),
                     ], className="mb-2 even-even-smaller-text", md=6)
                 ])
-            ], className="mb-2 p-3 rounded", style={'backgroundColor': '#ecf0f1'}),
+            ], className="mb-2 p-3 rounded", style={'backgroundColor': '#eee'}),
           
 
             dbc.Row(dbc.Col(dcc.Graph(id='xof_over_time_graph', figure=xof_over_time_chart), md=12, className="mb-4 animated fadeIn")),
@@ -175,7 +175,7 @@ app.layout = html.Div(
             dcc.Store(id='window-size-store', data={'width': 800})
         ],
         fluid=True,
-        style={"maxWidth": "960px", 'backgroundColor': '#f1f2f6'}
+        style={"maxWidth": "960px", 'backgroundColor': '#eee'}
     )],
     id='main-div',
     style={
@@ -184,10 +184,9 @@ app.layout = html.Div(
         "justifyContent": "center",
         "alignItems": "center",
         "minHeight": "100vh",
-        'backgroundColor': '#f1f2f6'
+        'backgroundColor': '#eee'
     }
 )
-
 
 # Callbacks
 
@@ -282,6 +281,32 @@ def update_layout6(window_size_data):
     if width <= 800:
         return sankey_chart_mobile
     return sankey_chart
+
+@app.callback(
+    Output('xof_builder_mev_type_graph', 'figure'),
+    Input('window-size-store', 'data')
+)
+def update_layout7(window_size_data):
+    if window_size_data is None:
+        raise dash.exceptions.PreventUpdate
+    width = window_size_data['width']
+    print(width)
+    if width <= 800:
+        return xof_builder_mev_type_chart_mobile
+    return xof_builder_mev_type_chart
+
+@app.callback(
+    Output('mev_type_over_time_graph', 'figure'),
+    Input('window-size-store', 'data')
+)
+def update_layout8(window_size_data):
+    if window_size_data is None:
+        raise dash.exceptions.PreventUpdate
+    width = window_size_data['width']
+    print(width)
+    if width <= 800:
+        return mev_type_over_time_chart_mobile
+    return mev_type_over_time_chart
     
 
 if __name__ == '__main__':
