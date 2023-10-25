@@ -3,8 +3,8 @@ Flashbots Imposter,1,0.0,liquid,1
 edennetwork,1,0.0,liquid,1
 eth-builder,1,0.0,liquid,1
 antbuilder,2,0.0,arb,2
-boba-builder,2,0.0,liquid,3
 BloXroute,3,0.0,liquid,3
+boba-builder,2,0.0,liquid,3
 f1b,5,0.0,liquid,5
 nfactorial,6,0.0,arb,7
 builder0x69,10,0.0,liquid,11
@@ -13,12 +13,12 @@ Blocknative,12,0.0,arb,13
 0x83bee51799e6513...,15,0.0,backrun,15
 0x83bee51799e6513...,15,0.0,frontrun,15
 0x83bee51799e6513...,15,0.0,sandwich,18
+antbuilder,19,0.0,frontrun,21
 antbuilder,19,0.0,backrun,21
 antbuilder,19,0.0,sandwich,21
-antbuilder,19,0.0,frontrun,21
 Flashbots,39,0.0,liquid,42
-Geth Go,32,0.0,backrun,44
 Geth Go,32,0.0,frontrun,44
+Geth Go,32,0.0,backrun,44
 Geth Go,32,0.0,sandwich,49
 Titan Builder,44,0.0,liquid,51
 nfactorial,48,0.0,frontrun,60
@@ -32,8 +32,8 @@ Blocknative,80,0.0,backrun,91
 Blocknative,80,0.0,sandwich,101
 0x83bee51799e6513...,50,0.0,arb,105
 beaverbuild,101,0.0,liquid,120
-payload,124,0.0,frontrun,131
 payload,124,0.0,backrun,131
+payload,124,0.0,frontrun,131
 payload,124,0.0,sandwich,140
 rsync-builder,139,0.0,liquid,160
 eth-builder,119,0.0,arb,162
@@ -41,14 +41,14 @@ edennetwork,146,0.0,frontrun,166
 edennetwork,146,0.0,backrun,169
 BloXroute,161,0.0,arb,180
 edennetwork,146,0.0,sandwich,196
-Assembled delicat...,209,0.0,frontrun,234
 Assembled delicat...,209,0.0,backrun,234
+Assembled delicat...,209,0.0,frontrun,234
 boba-builder,196,0.0,arb,246
 Assembled delicat...,209,0.0,sandwich,250
 Gambit Labs ,239,0.0,arb,254
 Flashbots Imposter,286,0.0,arb,348
-BloXroute,399,0.0,backrun,475
 BloXroute,399,0.0,frontrun,475
+BloXroute,399,0.0,backrun,475
 BloXroute,399,0.0,sandwich,498
 f1b,474,0.0,arb,514
 eth-builder,432,0.0,backrun,573
