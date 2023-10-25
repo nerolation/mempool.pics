@@ -1,14 +1,14 @@
 address_from,mev_type,mev_type_count
-Binance 15,liquid,11
 Binance 14,liquid,11
+Binance 15,liquid,11
 builder0x69,liquid,11
 0x76f...d5e,liquid,18
 Across Protocol,liquid,20
 0xfc2...f7c,liquid,21
 0xa00...123,liquid,25
 0x202...62a,liquid,26
-0x91a...728,liquid,29
 SideShift,liquid,29
+0x91a...728,liquid,29
 0x315...eba,liquid,32
 0xfa1...69f,liquid,33
 0x77a...5d1,liquid,36
@@ -33,13 +33,13 @@ SideShift,arb,1482
 0x202...62a,arb,2709
 Flashbots,arb,2747
 0xd7e...3b2,arb,2872
-Binance 15,frontrun,3392
-Binance 15,backrun,3397
-Binance 14,frontrun,3609
-Binance 14,backrun,3615
+Binance 15,frontrun,3393
+Binance 15,backrun,3398
+Binance 14,frontrun,3610
+Binance 14,backrun,3616
 0x406...5ee,arb,3686
-Binance 15,sandwich,3764
-Binance 14,sandwich,3979
+Binance 15,sandwich,3765
+Binance 14,sandwich,3980
 0xa00...123,frontrun,4359
 0xa00...123,backrun,4378
 0xd7e...3b2,frontrun,5022
@@ -52,14 +52,14 @@ Across Protocol,frontrun,5847
 Across Protocol,backrun,5863
 builder0x69,frontrun,6021
 builder0x69,backrun,6054
-0x315...eba,frontrun,6369
-0x315...eba,backrun,6393
+0x315...eba,frontrun,6370
+0x315...eba,backrun,6394
 Across Protocol,sandwich,6843
 builder0x69,sandwich,7190
 beaverbuild,arb,7355
 0x76f...d5e,frontrun,7385
 0x76f...d5e,backrun,7416
-0x315...eba,sandwich,7467
+0x315...eba,sandwich,7468
 SideShift,frontrun,7540
 SideShift,backrun,7569
 rsync-builder,arb,7671
@@ -90,11 +90,11 @@ Flashbots,sandwich,15311
 Titan Builder,frontrun,27671
 Titan Builder,backrun,27791
 Titan Builder,sandwich,33367
-rsync-builder,frontrun,37901
-rsync-builder,backrun,38062
+rsync-builder,frontrun,37902
+rsync-builder,backrun,38063
 beaverbuild,frontrun,38689
 beaverbuild,backrun,38883
-rsync-builder,sandwich,44487
+rsync-builder,sandwich,44488
 beaverbuild,sandwich,47375
 0xae2...e13,frontrun,78774
 0xae2...e13,backrun,79095

@@ -120,8 +120,8 @@ Binance 15,Titan Builder,1536
 0x58a...836,rsync-builder,1522
 0x81d...824,rsync-builder,1521
 0x6f0...926,rsync-builder,1520
-0x05c...01f,rsync-builder,1517
 0x82f...131,rsync-builder,1517
+0x05c...01f,rsync-builder,1517
 0x000...af5,beaverbuild,1516
 0xc8d...bfe,rsync-builder,1515
 0xebe...255,rsync-builder,1509
@@ -145,8 +145,8 @@ OKX,rsync-builder,1476
 0x13c...50d,rsync-builder,1448
 0xbf5...c2b,rsync-builder,1438
 0x3ef...c8b,rsync-builder,1432
-0xe92...341,rsync-builder,1432
 KuCoin,Titan Builder,1432
+0xe92...341,rsync-builder,1432
 0x111...4b1,rsync-builder,1430
 0xbaa...843,rsync-builder,1428
 0xdf3...71d,beaverbuild,1410
@@ -184,8 +184,8 @@ MEXC,Titan Builder,1258
 0x173...72e,rsync-builder,1256
 0x7c2...710,rsync-builder,1253
 0x24f...fc2,Assembled delicat...,1235
-0xa15...94e,rsync-builder,1233
 0x13c...50d,beaverbuild,1233
+0xa15...94e,rsync-builder,1233
 0x000...af5,Titan Builder,1230
 0xfa1...69f,Flashbots,1223
 0x899...bf1,Flashbots,1222
@@ -193,9 +193,9 @@ MEXC,Titan Builder,1258
 0x758...b16,Titan Builder,1197
 0x7c2...710,beaverbuild,1183
 0x315...eba,Flashbots,1175
-0x264...7b5,rsync-builder,1174
 0xc71...481,beaverbuild,1174
+0x264...7b5,rsync-builder,1174
 SideShift,Flashbots,1171
 0x55a...ef2,rsync-builder,1169
 Binance 15,Flashbots,1168
-Crypto.com 2,Titan Builder,1164
+0x4f0...e68,Titan Builder,1164
