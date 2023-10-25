@@ -120,8 +120,8 @@ Binance 15,Titan Builder,1536
 0x58a...836,rsync-builder,1522
 0x81d...824,rsync-builder,1521
 0x6f0...926,rsync-builder,1520
-0x82f...131,rsync-builder,1517
 0x05c...01f,rsync-builder,1517
+0x82f...131,rsync-builder,1517
 0x000...af5,beaverbuild,1516
 0xc8d...bfe,rsync-builder,1515
 0xebe...255,rsync-builder,1509
@@ -132,21 +132,21 @@ Binance 15,Titan Builder,1536
 0x867...4d3,rsync-builder,1492
 0x56f...ace,rsync-builder,1491
 0xda8...205,rsync-builder,1489
-0x111...8d5,rsync-builder,1486
 0x104...737,rsync-builder,1486
+0x111...8d5,rsync-builder,1486
 0x513...046,rsync-builder,1482
 0x111...2bf,rsync-builder,1480
 0xeaa...e51,rsync-builder,1479
 0x12d...56c,rsync-builder,1477
 OKX,rsync-builder,1476
 0xff5...77e,rsync-builder,1469
-0x2c9...990,rsync-builder,1465
 0x82d...a4f,rsync-builder,1465
+0x2c9...990,rsync-builder,1465
 0x13c...50d,rsync-builder,1448
 0xbf5...c2b,rsync-builder,1438
 0x3ef...c8b,rsync-builder,1432
-KuCoin,Titan Builder,1432
 0xe92...341,rsync-builder,1432
+KuCoin,Titan Builder,1432
 0x111...4b1,rsync-builder,1430
 0xbaa...843,rsync-builder,1428
 0xdf3...71d,beaverbuild,1410
@@ -162,8 +162,8 @@ Binance 14,Flashbots,1367
 0xbb0...98c,rsync-builder,1363
 Binance 20,beaverbuild,1352
 0x5e2...22f,rsync-builder,1339
-0x202...62a,Flashbots,1333
 0x111...f80,Titan Builder,1333
+0x202...62a,Flashbots,1333
 0xa37...3e2,Flashbots,1330
 0x5c8...9fe,Titan Builder,1326
 0x111...8d5,Titan Builder,1325
@@ -184,8 +184,8 @@ MEXC,Titan Builder,1258
 0x173...72e,rsync-builder,1256
 0x7c2...710,rsync-builder,1253
 0x24f...fc2,Assembled delicat...,1235
-0x13c...50d,beaverbuild,1233
 0xa15...94e,rsync-builder,1233
+0x13c...50d,beaverbuild,1233
 0x000...af5,Titan Builder,1230
 0xfa1...69f,Flashbots,1223
 0x899...bf1,Flashbots,1222

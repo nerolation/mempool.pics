@@ -3,8 +3,8 @@ Flashbots Imposter,1,0.0,liquid,1
 edennetwork,1,0.0,liquid,1
 eth-builder,1,0.0,liquid,1
 antbuilder,2,0.0,arb,2
-BloXroute,3,0.0,liquid,3
 boba-builder,2,0.0,liquid,3
+BloXroute,3,0.0,liquid,3
 f1b,5,0.0,liquid,5
 nfactorial,6,0.0,arb,7
 builder0x69,10,0.0,liquid,11
@@ -13,16 +13,16 @@ Blocknative,12,0.0,arb,13
 0x83bee51799e6513...,15,0.0,backrun,15
 0x83bee51799e6513...,15,0.0,frontrun,15
 0x83bee51799e6513...,15,0.0,sandwich,18
-antbuilder,19,0.0,frontrun,21
 antbuilder,19,0.0,backrun,21
 antbuilder,19,0.0,sandwich,21
+antbuilder,19,0.0,frontrun,21
 Flashbots,39,0.0,liquid,42
-Geth Go,32,0.0,frontrun,44
 Geth Go,32,0.0,backrun,44
+Geth Go,32,0.0,frontrun,44
 Geth Go,32,0.0,sandwich,49
 Titan Builder,44,0.0,liquid,51
-nfactorial,48,0.0,frontrun,60
 nfactorial,48,0.0,backrun,60
+nfactorial,48,0.0,frontrun,60
 Geth Go,39,0.0,arb,61
 nfactorial,48,0.0,sandwich,71
 payload,61,0.0,arb,79
@@ -32,27 +32,27 @@ Blocknative,80,0.0,backrun,91
 Blocknative,80,0.0,sandwich,101
 0x83bee51799e6513...,50,0.0,arb,105
 beaverbuild,101,0.0,liquid,120
-payload,124,0.0,backrun,131
 payload,124,0.0,frontrun,131
+payload,124,0.0,backrun,131
 payload,124,0.0,sandwich,140
 rsync-builder,139,0.0,liquid,160
 eth-builder,119,0.0,arb,162
 edennetwork,146,0.0,frontrun,166
 edennetwork,146,0.0,backrun,169
-BloXroute,161,0.0,arb,180
+BloXroute,162,0.0,arb,183
 edennetwork,146,0.0,sandwich,196
-Assembled delicat...,209,0.0,backrun,234
 Assembled delicat...,209,0.0,frontrun,234
+Assembled delicat...,209,0.0,backrun,234
 boba-builder,196,0.0,arb,246
 Assembled delicat...,209,0.0,sandwich,250
 Gambit Labs ,239,0.0,arb,254
 Flashbots Imposter,286,0.0,arb,348
-BloXroute,399,0.0,frontrun,475
-BloXroute,399,0.0,backrun,475
-BloXroute,399,0.0,sandwich,498
+BloXroute,400,0.0,backrun,476
+BloXroute,400,0.0,frontrun,476
+BloXroute,400,0.0,sandwich,499
 f1b,474,0.0,arb,514
-eth-builder,432,0.0,backrun,573
 eth-builder,432,0.0,frontrun,573
+eth-builder,432,0.0,backrun,573
 BuildAI ,445,0.0,arb,593
 eth-builder,432,0.0,sandwich,624
 BuildAI ,690,0.0,frontrun,812
@@ -60,33 +60,33 @@ BuildAI ,690,0.0,backrun,816
 boba-builder,706,0.0,backrun,985
 boba-builder,706,0.0,frontrun,985
 BuildAI ,690,0.0,sandwich,991
-builder0x69,925,0.0,arb,1044
+builder0x69,926,0.0,arb,1045
 boba-builder,706,0.0,sandwich,1056
-Flashbots Imposter,881,0.0,backrun,1112
 Flashbots Imposter,881,0.0,frontrun,1112
+Flashbots Imposter,881,0.0,backrun,1112
 Flashbots Imposter,881,0.0,sandwich,1273
-Flashbots,2217,0.0,arb,2438
+Flashbots,2218,0.0,arb,2439
 Gambit Labs ,2748,0.0,frontrun,3151
 Gambit Labs ,2748,0.0,backrun,3165
 Gambit Labs ,2748,0.0,sandwich,3736
 f1b,2948,0.0,frontrun,3869
 f1b,2948,0.0,backrun,3870
 f1b,2948,0.0,sandwich,4097
-Titan Builder,4912,0.0,arb,5891
-builder0x69,5377,0.0,frontrun,6028
-builder0x69,5377,0.0,backrun,6061
-builder0x69,5377,0.0,sandwich,7198
-beaverbuild,6198,0.0,arb,7358
-rsync-builder,6802,0.0,arb,7901
-Flashbots,10159,0.0,frontrun,13019
-Flashbots,10159,0.0,backrun,13021
-Flashbots,10159,0.0,sandwich,14079
-Titan Builder,28116,0.0,frontrun,32195
-Titan Builder,28116,0.0,backrun,32336
-beaverbuild,31513,0.0,frontrun,38815
-rsync-builder,33601,0.0,frontrun,38870
-beaverbuild,31513,0.0,backrun,39009
-rsync-builder,33601,0.0,backrun,39032
-Titan Builder,28116,0.0,sandwich,39070
-rsync-builder,33601,0.0,sandwich,45538
-beaverbuild,31513,0.0,sandwich,47525
+Titan Builder,4913,0.0,arb,5893
+builder0x69,5378,0.0,frontrun,6029
+builder0x69,5378,0.0,backrun,6062
+builder0x69,5378,0.0,sandwich,7199
+beaverbuild,6201,0.0,arb,7362
+rsync-builder,6804,0.0,arb,7903
+Flashbots,10161,0.0,frontrun,13021
+Flashbots,10161,0.0,backrun,13023
+Flashbots,10161,0.0,sandwich,14081
+Titan Builder,28123,0.0,frontrun,32202
+Titan Builder,28123,0.0,backrun,32343
+beaverbuild,31521,0.0,frontrun,38825
+rsync-builder,33612,0.0,frontrun,38882
+beaverbuild,31521,0.0,backrun,39019
+rsync-builder,33612,0.0,backrun,39044
+Titan Builder,28123,0.0,sandwich,39077
+rsync-builder,33612,0.0,sandwich,45554
+beaverbuild,31521,0.0,sandwich,47536
