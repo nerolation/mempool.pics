@@ -2,7 +2,7 @@
 #cd ~/toni/ethereum-data-pipeline
 #git pull origin main
 
-./bin/python3 dataprep.py
+~/ethereum/bin/python3 dataprep.py
 cp -r ./assets/ ./mempool.pics/
 cp -r ./data/ ./mempool.pics/
 cp app.py ./mempool.pics/app.py
