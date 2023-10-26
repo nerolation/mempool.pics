@@ -158,7 +158,7 @@ app.layout = html.Div(
                     ], className="mb-2 even-even-smaller-text", md=6),
 
                     dbc.Col([
-                        html.H4("What is private orderflow", style={'textAlign': 'left', 'color': '#2c3e50', 'fontFamily': 'Ubuntu Mono, monospace'}),
+                        html.H4("What is private orderflow?", style={'textAlign': 'left', 'color': '#2c3e50', 'fontFamily': 'Ubuntu Mono, monospace'}),
                          dcc.Markdown(f"""**Private Orderflow** refers to transactions that are not broadcasted over the public P2P network. Instead, these transactions are sent directly to the block builder. This approach requires a secure communication P2P network but directly submitted to a block builder. For the data presented on this website, [Blocknative's public mempool data](https://docs.blocknative.com/mempool-data-program) was used to identify transactions that have been publicly broadcasted over the P2P network. To tell if a tx is a frontrun, backrun, arb, etc. the [ZeroMev API](https://info.zeromev.org/api.html) was used.\n\nLast data update: {curtime()}""", 
                                       style={'textAlign': 'left', 'color': '#262525','fontFamily': 'Ubuntu Mono, monospace'}),
                     ], className="mb-2 even-even-smaller-text", md=6)

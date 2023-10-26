@@ -2,6 +2,7 @@
 #cd ~/toni/ethereum-data-pipeline
 #git pull origin main
 
+~/ethereum/bin/python3 zeromevparser.py
 ~/ethereum/bin/python3 dataprep.py
 cp -r ./assets/ ./mempool.pics/
 cp -r ./data/ ./mempool.pics/

@@ -55,8 +55,8 @@ SideShift,Titan Builder,2368
 0xfc2...f7c,Titan Builder,2114
 0xf40...06f,Flashbots,2108
 0xe3d...b9a,Flashbots,2075
-Across Protocol,beaverbuild,2026
 0x91a...728,beaverbuild,2026
+Across Protocol,beaverbuild,2026
 0x065...4a1,beaverbuild,2012
 0xa00...123,rsync-builder,1958
 0x76f...d5e,Titan Builder,1954
@@ -71,8 +71,8 @@ Flashbots ,Flashbots Imposter,1777
 0x042...8b3,beaverbuild,1768
 0xd6f...67c,rsync-builder,1754
 0x1b5...f9c,Flashbots,1730
-0xe9f...800,beaverbuild,1695
 0xbf2...0dd,beaverbuild,1695
+0xe9f...800,beaverbuild,1695
 0x24a...091,beaverbuild,1666
 0xc71...481,rsync-builder,1664
 0xdf3...71d,rsync-builder,1554
@@ -108,11 +108,11 @@ Flashbots ,Flashbots Imposter,1777
 0xbf5...c2b,rsync-builder,1429
 0x3ef...c8b,rsync-builder,1428
 0xff5...77e,rsync-builder,1421
-0x513...046,rsync-builder,1419
 0x000...af5,beaverbuild,1419
+0x513...046,rsync-builder,1419
 0x82f...131,rsync-builder,1417
-0xda8...205,rsync-builder,1415
 0x2c9...990,rsync-builder,1415
+0xda8...205,rsync-builder,1415
 0x56f...ace,rsync-builder,1413
 0xad3...299,rsync-builder,1411
 0x104...737,rsync-builder,1407
@@ -125,8 +125,8 @@ KuCoin,Titan Builder,1380
 0x82d...a4f,rsync-builder,1372
 0x461...34b,rsync-builder,1369
 0x111...f80,rsync-builder,1365
-0xdf3...71d,beaverbuild,1359
 0xbb0...98c,rsync-builder,1359
+0xdf3...71d,beaverbuild,1359
 0xe92...341,rsync-builder,1355
 0x111...dfb,rsync-builder,1349
 0x5c8...9fe,beaverbuild,1344
@@ -156,8 +156,8 @@ KuCoin,Titan Builder,1380
 0xc71...481,beaverbuild,1174
 0x4f0...e68,Titan Builder,1164
 0x111...41f,Titan Builder,1151
-0x315...eba,Flashbots,1147
 0x3fc...b5f,rsync-builder,1147
+0x315...eba,Flashbots,1147
 SideShift,Flashbots,1138
 0x758...b16,Titan Builder,1137
 0x5e2...22f,rsync-builder,1137
@@ -174,8 +174,8 @@ SideShift,Flashbots,1138
 0x758...b16,beaverbuild,1071
 0xecf...819,beaverbuild,1054
 0x758...b16,rsync-builder,1053
-0xbf5...c2b,Titan Builder,1051
 0x1d8...f30,beaverbuild,1051
+0xbf5...c2b,Titan Builder,1051
 0xe75...b0d,rsync-builder,1046
 MEV Builder,BuildAI ,1041
 Binance 14,rsync-builder,1036
@@ -188,14 +188,14 @@ Boba Builder,boba-builder,1000
 0x173...72e,beaverbuild,1000
 0x433...aeb,rsync-builder,996
 0x64a...73a,rsync-builder,995
-0xdf3...71d,Titan Builder,994
 0x406...56e,rsync-builder,994
+0xdf3...71d,Titan Builder,994
 0x7ce...1ed,rsync-builder,991
 0x4f0...e68,Flashbots,986
 0x0cf...7f3,Flashbots,982
 0xe75...b0d,beaverbuild,981
 0x381...969,beaverbuild,976
 0x49b...08b,beaverbuild,976
-0x13c...50d,Titan Builder,966
 0x49b...08b,Titan Builder,966
+0x13c...50d,Titan Builder,966
 0xb18...e8f,rsync-builder,959
