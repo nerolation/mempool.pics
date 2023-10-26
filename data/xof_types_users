@@ -1,101 +1,141 @@
 address_from,mev_type,mev_type_count
-Binance 14,liquid,11
-Binance 15,liquid,11
-builder0x69,liquid,11
+0x111...4b1,liquid,4
+0x111...f80,liquid,5
+0x111...2bf,liquid,7
+0x111...8d5,liquid,8
+0x111...41f,liquid,8
+0x111...dfb,liquid,11
+0xf9c...e68,liquid,16
 0x76f...d5e,liquid,18
-Across Protocol,liquid,20
-0xfc2...f7c,liquid,21
-0xa00...123,liquid,25
+0xfc2...f7c,liquid,20
 0x202...62a,liquid,26
-SideShift,liquid,29
-0x91a...728,liquid,29
-0x315...eba,liquid,32
+SideShift,liquid,27
+0x91a...728,liquid,28
 0xfa1...69f,liquid,33
 0x77a...5d1,liquid,36
-0xd7e...3b2,liquid,37
-Flashbots,liquid,43
-Titan Builder,liquid,45
+Titan Builder,liquid,42
+Flashbots,liquid,42
 0x406...5ee,liquid,67
-beaverbuild,liquid,120
-0xae2...e13,liquid,137
-rsync-builder,liquid,156
-Binance 15,arb,829
-Binance 14,arb,835
-builder0x69,arb,1042
-Across Protocol,arb,1112
-0xa00...123,arb,1162
-SideShift,arb,1482
-0x315...eba,arb,1538
-0xfc2...f7c,arb,1902
-0x91a...728,arb,2089
-0xfa1...69f,arb,2116
-0x77a...5d1,arb,2481
-0x202...62a,arb,2709
-Flashbots,arb,2747
-0xd7e...3b2,arb,2872
-Binance 15,frontrun,3393
-Binance 15,backrun,3398
-Binance 14,frontrun,3610
-Binance 14,backrun,3616
-0x406...5ee,arb,3686
-Binance 15,sandwich,3765
-Binance 14,sandwich,3980
-0xa00...123,frontrun,4359
-0xa00...123,backrun,4378
-0xd7e...3b2,frontrun,5022
-0xd7e...3b2,backrun,5032
-0x76f...d5e,arb,5061
-0xa00...123,sandwich,5157
-Titan Builder,arb,5246
-0xd7e...3b2,sandwich,5781
-Across Protocol,frontrun,5847
-Across Protocol,backrun,5863
-builder0x69,frontrun,6021
-builder0x69,backrun,6054
-0x315...eba,frontrun,6370
-0x315...eba,backrun,6394
-Across Protocol,sandwich,6843
-builder0x69,sandwich,7190
-beaverbuild,arb,7355
-0x76f...d5e,frontrun,7385
-0x76f...d5e,backrun,7416
-0x315...eba,sandwich,7468
-SideShift,frontrun,7540
-SideShift,backrun,7569
-rsync-builder,arb,7671
-0x76f...d5e,sandwich,8350
-0x91a...728,frontrun,8905
-0x91a...728,backrun,8936
-SideShift,sandwich,8966
-0xfc2...f7c,frontrun,9307
-0xfc2...f7c,backrun,9344
-0x91a...728,sandwich,10314
-0xae2...e13,arb,10989
-0xfa1...69f,frontrun,11105
-0xfc2...f7c,sandwich,11129
-0xfa1...69f,backrun,11148
-0xfa1...69f,sandwich,13194
-0x202...62a,frontrun,13261
-0x202...62a,backrun,13322
-Flashbots,frontrun,14093
-Flashbots,backrun,14095
-Flashbots,sandwich,15311
-0x406...5ee,frontrun,16197
-0x406...5ee,backrun,16250
-0x202...62a,sandwich,17115
-0x406...5ee,sandwich,18712
-0x77a...5d1,frontrun,24385
-0x77a...5d1,backrun,24395
-0x77a...5d1,sandwich,27440
-Titan Builder,frontrun,27671
-Titan Builder,backrun,27791
-Titan Builder,sandwich,33367
-rsync-builder,frontrun,37902
-rsync-builder,backrun,38063
-beaverbuild,frontrun,38689
-beaverbuild,backrun,38883
-rsync-builder,sandwich,44488
-beaverbuild,sandwich,47375
-0xae2...e13,frontrun,78774
-0xae2...e13,backrun,79095
-0xae2...e13,sandwich,89980
+beaverbuild,liquid,116
+0xae2...e13,liquid,131
+rsync-builder,liquid,154
+0x111...41f,arb,717
+0x111...dfb,arb,725
+0x111...8d5,arb,743
+0x111...2bf,arb,793
+0x111...f80,arb,793
+0x111...4b1,arb,804
+0xf9c...e68,arb,832
+SideShift,arb,1463
+0xfc2...f7c,arb,1861
+0x91a...728,arb,2036
+0xfa1...69f,arb,2074
+0x77a...5d1,arb,2423
+0x202...62a,arb,2663
+Flashbots,arb,2701
+0x406...5ee,arb,3668
+0x76f...d5e,arb,5028
+Titan Builder,arb,5120
+beaverbuild,arb,7195
+0x76f...d5e,frontrun,7325
+SideShift,frontrun,7341
+0xf9c...e68,frontrun,7347
+0xf9c...e68,backrun,7347
+0x76f...d5e,backrun,7354
+SideShift,backrun,7370
+rsync-builder,arb,7550
+0x111...41f,frontrun,7620
+0x111...dfb,frontrun,7699
+0x111...41f,backrun,7709
+0x111...dfb,backrun,7802
+0x111...8d5,frontrun,7869
+0x111...4b1,frontrun,7913
+0x111...2bf,frontrun,7933
+0x111...f80,frontrun,7949
+0x111...8d5,backrun,7960
+0x111...4b1,backrun,8004
+0x111...2bf,backrun,8023
+0x111...f80,backrun,8044
+0x76f...d5e,sandwich,8272
+0x91a...728,frontrun,8527
+0x91a...728,backrun,8557
+SideShift,sandwich,8690
+0x111...41f,sandwich,8804
+0x111...dfb,sandwich,8824
+0xfc2...f7c,frontrun,9026
+0x111...8d5,sandwich,9060
+0xfc2...f7c,backrun,9062
+0x111...f80,sandwich,9063
+0x111...4b1,sandwich,9092
+0x111...2bf,sandwich,9106
+0x91a...728,sandwich,9814
+0xf9c...e68,sandwich,9978
+0xfa1...69f,frontrun,10745
+0xae2...e13,arb,10745
+0xfc2...f7c,sandwich,10748
+0xfa1...69f,backrun,10784
+0xfa1...69f,sandwich,12718
+0x202...62a,frontrun,12847
+0x202...62a,backrun,12906
+Flashbots,frontrun,13754
+Flashbots,backrun,13756
+Flashbots,sandwich,14925
+0x406...5ee,frontrun,16123
+0x406...5ee,backrun,16176
+0x202...62a,sandwich,16445
+0x406...5ee,sandwich,18617
+0x77a...5d1,frontrun,23447
+0x77a...5d1,backrun,23456
+0x77a...5d1,sandwich,26318
+Titan Builder,frontrun,26502
+Titan Builder,backrun,26607
+Titan Builder,sandwich,31882
+rsync-builder,frontrun,36955
+rsync-builder,backrun,37115
+beaverbuild,frontrun,37412
+beaverbuild,backrun,37601
+rsync-builder,sandwich,43260
+beaverbuild,sandwich,45534
+0xae2...e13,frontrun,76083
+0xae2...e13,backrun,76384
+0xae2...e13,sandwich,86636
+0x111...41f,other,125525
+0x111...dfb,other,127852
+0x111...8d5,other,130018
+0x111...4b1,other,130532
+0x111...f80,other,131302
+0x111...2bf,other,132316
+0xf9c...e68,other,148032
+0x76f...d5e,other,199491
+SideShift,other,266846
+0x202...62a,other,290659
+0xfc2...f7c,other,314990
+0x91a...728,other,331139
+0xfa1...69f,other,368172
+0x77a...5d1,other,440780
+Flashbots,other,543953
+0x406...5ee,other,576978
+Titan Builder,other,856086
+beaverbuild,other,1207213
+rsync-builder,other,1377466
+0xae2...e13,other,1743390
+0x406...5ee,other,
+0x111...f80,other,
+Flashbots,other,
+0x111...4b1,other,
+0xf9c...e68,other,
+0x91a...728,other,
+0xfa1...69f,other,
+0x111...8d5,other,
+0x111...41f,other,
+rsync-builder,other,
+0x111...dfb,other,
+0x76f...d5e,other,
+Titan Builder,other,
+0x202...62a,other,
+0xfc2...f7c,other,
+SideShift,other,
+0xae2...e13,other,
+beaverbuild,other,
+0x77a...5d1,other,
+0x111...2bf,other,
