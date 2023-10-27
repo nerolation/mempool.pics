@@ -44,3 +44,9 @@ body {
         margin-bottom: 10px;
     }
 }
+
+@media (max-width: 800px) {
+  .legendpoints path {
+    transform: translate(15px, 0) scale(0.5);
+  }
+}

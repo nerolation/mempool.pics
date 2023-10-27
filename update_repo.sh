@@ -1,9 +1,8 @@
 #!/bin/bash
 #cd ~/toni/ethereum-data-pipeline
 #git pull origin main
-cd ~/ethereum/mempool.pics-building
-../bin/python3 zeromevparser.py
-../bin/python3 dataprep.py
+
+./bin/python3 dataprep.py
 cp -r ./assets/ ./mempool.pics/
 cp -r ./data/ ./mempool.pics/
 cp app.py ./mempool.pics/app.py
