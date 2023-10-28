@@ -76,8 +76,8 @@ Across Protocol,Titan Builder,1762,#bcbddc
 0x6f0...926,rsync-builder,1566,#bcbddc
 0xc8d...bfe,rsync-builder,1561,#bcbddc
 0x81d...824,rsync-builder,1560,#bcbddc
-0x111...2bf,beaverbuild,1558,#bcbddc
 0xd27...a53,rsync-builder,1558,#bcbddc
+0x111...2bf,beaverbuild,1558,#bcbddc
 0xdf3...71d,rsync-builder,1554,#bcbddc
 0xebe...255,rsync-builder,1538,#bcbddc
 0x111...41f,beaverbuild,1535,#bcbddc
@@ -111,9 +111,9 @@ Across Protocol,Titan Builder,1762,#bcbddc
 0x3ef...c8b,rsync-builder,1419,#bcbddc
 0xda8...205,rsync-builder,1418,#bcbddc
 0x8ec...778,rsync-builder,1413,#bcbddc
+0x91a...728,Flashbots,1407,#bcbddc
 0x1d8...f30,rsync-builder,1407,#bcbddc
 0x56f...ace,rsync-builder,1407,#bcbddc
-0x91a...728,Flashbots,1407,#bcbddc
 0xad3...299,rsync-builder,1399,#bcbddc
 0x49b...08b,rsync-builder,1397,#bcbddc
 0x82f...131,rsync-builder,1394,#bcbddc
@@ -129,8 +129,8 @@ KuCoin,Titan Builder,1373,#bcbddc
 0x82d...a4f,rsync-builder,1358,#bcbddc
 0xe92...341,rsync-builder,1347,#bcbddc
 0xbaa...843,rsync-builder,1345,#bcbddc
-0xa37...3e2,Flashbots,1335,#bcbddc
 0xdf3...71d,beaverbuild,1335,#bcbddc
+0xa37...3e2,Flashbots,1335,#bcbddc
 0x173...72e,rsync-builder,1329,#bcbddc
 0x000...af5,beaverbuild,1327,#bcbddc
 0x381...969,rsync-builder,1323,#bcbddc
@@ -147,8 +147,8 @@ KuCoin,Titan Builder,1373,#bcbddc
 0xa00...123,Titan Builder,1226,#bcbddc
 0x5c8...9fe,Titan Builder,1224,#bcbddc
 0x111...2bf,Titan Builder,1215,#bcbddc
-0x5e2...22f,rsync-builder,1212,#bcbddc
 0x111...4b1,Titan Builder,1212,#bcbddc
+0x5e2...22f,rsync-builder,1212,#bcbddc
 0x604...df7,beaverbuild,1209,#bcbddc
 0x13c...50d,beaverbuild,1201,#bcbddc
 0xdf4...ce0,rsync-builder,1185,#bcbddc
@@ -172,8 +172,8 @@ SideShift,Flashbots,1124,#bcbddc
 0xb54...08f,beaverbuild,1090,#bcbddc
 0x433...aeb,rsync-builder,1090,#bcbddc
 0x55d...e90,beaverbuild,1082,#bcbddc
-0x7ce...1ed,rsync-builder,1079,#bcbddc
 0x758...b16,Titan Builder,1079,#e6e6e6
+0x7ce...1ed,rsync-builder,1079,#bcbddc
 0xafe...7d6,rsync-builder,1078,#bcbddc
 0xc71...481,Titan Builder,1072,#7f7f7f
 0x202...62a,builder0x69,1071,#bcbddc
