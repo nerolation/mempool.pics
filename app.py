@@ -12,6 +12,8 @@ from dash import Input, Output
 from plotly.subplots import make_subplots
 import random
 import pickle
+import dash_ag_grid as dag
+
 pd.set_option('mode.chained_assignment', None)
 
 datafolder = "data/"
@@ -53,9 +55,26 @@ mev_type_over_time_chart_mobile = load_chart("chart_mev_type_over_time_mobile")
 xof_types_users_chart = load_chart("chart_xof_types_users")
 xof_types_users_chart_mobile = load_chart("chart_xof_types_users_mobile")
 
+df = pd.read_parquet(datafolder+"xof_table")
+df['date'] = pd.to_datetime(df['date'])
+
 
 BLACK = "rgb(26, 25, 25)"
 BLACK_ALPHA = "rgba(26, 25, 25, {})"
+columnDefs = [
+    {"field": "date", "filter": "agDateColumnFilter", "cellRenderer": "markdown", 'width': "auto",  
+     "filterParams": {
+         "browserDatePicker": True,
+         "minValidYear": 2022,
+         "maxValidYear": 2023,
+     }},
+    {"field": "slot", "filter": True, "cellRenderer": "markdown"},
+    {"field": "block_number", "filter": True, "cellRenderer": "markdown"},
+    {"field": "tx_hash", "filter": True, "cellRenderer": "markdown"},
+    {"field": "mev_type", "filter": True, "cellRenderer": "markdown"},
+    {"field": "builder", "filter": True, "cellRenderer": "markdown"},
+    {"field": "address", "filter": True, "cellRenderer": "markdown"},
+]
 
 
 # Initialize the Dash app
@@ -165,7 +184,25 @@ app.layout = html.Div(
                 ])
             ], className="mb-2 p-3 rounded", style={'backgroundColor': '#eee'}),
           
-
+            dbc.Container(
+                [
+                   dag.AgGrid(
+                        id="your-table-id",
+                        columnDefs=columnDefs,
+                        rowData=df.to_dict("records"),
+                        defaultColDef={"resizable": True, "sortable": True, "filter": True, "flex":1, "floatingFilter": True},
+                       columnSize= "sizeToFit",
+                       dashGridOptions={
+                            "rowHeight": 20,
+                            "pagination": True,  
+                            "paginationPageSize": 50,
+                        },    
+                    )
+                ],
+                id='table-container',
+                fluid=True,
+                style={'backgroundColor': '#eee', "width": "100%"}
+            ),
             dbc.Row(dbc.Col(dcc.Graph(id='xof_over_time_graph', figure=xof_over_time_chart), md=12, className="mb-4 animated fadeIn")),
             dbc.Row(dbc.Col(dcc.Graph(id='xof_over_time_builder_graph', figure=xof_over_time_builder_chart), md=12, className="mb-4 animated fadeIn")),
             dbc.Row(dbc.Col(dcc.Graph(id='xof_builder_graph', figure=xof_builder_chart), md=12, className="mb-4 animated fadeIn")),
@@ -197,8 +234,6 @@ app.layout = html.Div(
 )
 
 # Callbacks
-
-    
 @app.callback(
     Output('main-div', 'style'),
     Input('window-size-store', 'data')
@@ -329,9 +364,9 @@ def update_layout9(window_size_data):
     if width <= 800:
         return xof_types_users_chart_mobile
     return xof_types_users_chart
-    
+
 
 if __name__ == '__main__':
-    #app.run_server(debug=True)
+    app.run_server(debug=True)
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
