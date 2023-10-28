@@ -89,3 +89,4 @@ websockets==12.0
 Werkzeug==2.2.3
 yarl==1.9.2
 zipp==3.17.0
+dash-ag-grid===2.4.0
