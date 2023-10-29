@@ -2,130 +2,129 @@ builder,mev_type,mev_type_count
 0x83bee51799e6513...,arb,106
 0x83bee51799e6513...,backrun,15
 0x83bee51799e6513...,frontrun,15
-0x83bee51799e6513...,other,557
+0x83bee51799e6513...,other,37
 0x83bee51799e6513...,sandwich,17
-0x83bee51799e6513...,swap,484
+0x83bee51799e6513...,swap,402
 Assembled delicat...,arb,94
 Assembled delicat...,backrun,237
 Assembled delicat...,frontrun,243
-Assembled delicat...,other,1021
+Assembled delicat...,other,712
 Assembled delicat...,sandwich,6
-Assembled delicat...,swap,2907
-BloXroute,arb,156
-BloXroute,backrun,407
-BloXroute,frontrun,416
+Assembled delicat...,swap,2839
+BloXroute,arb,150
+BloXroute,backrun,395
+BloXroute,frontrun,401
 BloXroute,liquid,1
-BloXroute,other,1835
-BloXroute,sandwich,20
-BloXroute,swap,6549
-BuildAI ,arb,529
-BuildAI ,backrun,718
-BuildAI ,frontrun,725
-BuildAI ,other,1444
-BuildAI ,sandwich,145
-BuildAI ,swap,8094
-Flashbots,arb,2279
-Flashbots,backrun,12347
-Flashbots,frontrun,12446
+BloXroute,other,1041
+BloXroute,sandwich,13
+BloXroute,swap,6168
+BuildAI ,arb,519
+BuildAI ,backrun,707
+BuildAI ,frontrun,714
+BuildAI ,other,531
+BuildAI ,sandwich,135
+BuildAI ,swap,7777
+Flashbots,arb,2205
+Flashbots,backrun,12014
+Flashbots,frontrun,12110
 Flashbots,liquid,32
-Flashbots,other,122952
-Flashbots,sandwich,964
-Flashbots,swap,236866
-Flashbots Imposter,arb,306
-Flashbots Imposter,backrun,1069
-Flashbots Imposter,frontrun,1062
+Flashbots,other,102993
+Flashbots,sandwich,806
+Flashbots,swap,225957
+Flashbots Imposter,arb,305
+Flashbots Imposter,backrun,1054
+Flashbots Imposter,frontrun,1047
 Flashbots Imposter,liquid,1
-Flashbots Imposter,other,10341
-Flashbots Imposter,sandwich,120
-Flashbots Imposter,swap,21100
-Gambit Labs ,arb,227
-Gambit Labs ,backrun,3028
-Gambit Labs ,frontrun,3053
-Gambit Labs ,other,10452
-Gambit Labs ,sandwich,329
-Gambit Labs ,swap,37782
-Geth Go,arb,51
+Flashbots Imposter,other,8440
+Flashbots Imposter,sandwich,105
+Flashbots Imposter,swap,20543
+Gambit Labs ,arb,224
+Gambit Labs ,backrun,3005
+Gambit Labs ,frontrun,3030
+Gambit Labs ,other,7735
+Gambit Labs ,sandwich,303
+Gambit Labs ,swap,36963
+Geth Go,arb,50
 Geth Go,backrun,38
 Geth Go,frontrun,38
-Geth Go,other,111
+Geth Go,other,34
 Geth Go,sandwich,1
-Geth Go,swap,514
-Titan Builder,arb,5467
-Titan Builder,backrun,28675
-Titan Builder,frontrun,28801
-Titan Builder,liquid,31
-Titan Builder,other,172561
-Titan Builder,sandwich,2241
-Titan Builder,swap,435507
+Geth Go,swap,484
+Titan Builder,arb,5323
+Titan Builder,backrun,27884
+Titan Builder,frontrun,27998
+Titan Builder,liquid,30
+Titan Builder,other,144066
+Titan Builder,sandwich,1952
+Titan Builder,swap,415766
 antbuilder,arb,1
 antbuilder,backrun,10
 antbuilder,frontrun,10
 antbuilder,other,61
-antbuilder,swap,675
-beaverbuild,arb,6690
-beaverbuild,backrun,35973
-beaverbuild,frontrun,36170
-beaverbuild,liquid,103
-beaverbuild,other,214721
-beaverbuild,sandwich,2562
-beaverbuild,swap,579072
-boba-builder,arb,220
-boba-builder,backrun,921
-boba-builder,frontrun,928
-boba-builder,liquid,2
-boba-builder,other,1320
-boba-builder,sandwich,47
-boba-builder,swap,2062
-builder0x69,arb,849
-builder0x69,backrun,5369
-builder0x69,frontrun,5428
+antbuilder,swap,596
+beaverbuild,arb,6497
+beaverbuild,backrun,34973
+beaverbuild,frontrun,35159
+beaverbuild,liquid,101
+beaverbuild,other,176198
+beaverbuild,sandwich,2153
+beaverbuild,swap,553976
+boba-builder,arb,215
+boba-builder,backrun,899
+boba-builder,frontrun,906
+boba-builder,other,1060
+boba-builder,sandwich,42
+boba-builder,swap,1942
+builder0x69,arb,814
+builder0x69,backrun,5200
+builder0x69,frontrun,5251
 builder0x69,liquid,5
-builder0x69,other,30048
-builder0x69,sandwich,211
-builder0x69,swap,69521
-edennetwork,arb,10
-edennetwork,backrun,157
-edennetwork,frontrun,156
+builder0x69,other,25519
+builder0x69,sandwich,170
+builder0x69,swap,66343
+edennetwork,arb,9
+edennetwork,backrun,150
+edennetwork,frontrun,149
 edennetwork,liquid,1
-edennetwork,other,122
+edennetwork,other,117
 edennetwork,sandwich,4
-edennetwork,swap,1804
-eth-builder,arb,163
-eth-builder,backrun,511
-eth-builder,frontrun,521
+edennetwork,swap,1731
+eth-builder,arb,162
+eth-builder,backrun,493
+eth-builder,frontrun,503
 eth-builder,liquid,1
-eth-builder,other,727
-eth-builder,sandwich,7
-eth-builder,swap,2058
-f1b,arb,459
-f1b,backrun,3548
-f1b,frontrun,3587
+eth-builder,other,481
+eth-builder,sandwich,2
+eth-builder,swap,1972
+f1b,arb,440
+f1b,backrun,3433
+f1b,frontrun,3474
 f1b,liquid,2
-f1b,other,9618
-f1b,sandwich,62
-f1b,swap,31111
+f1b,other,8589
+f1b,sandwich,47
+f1b,swap,29553
 f1b-test,arb,14
 f1b-test,backrun,27
 f1b-test,frontrun,27
-f1b-test,other,250
-f1b-test,sandwich,4
-f1b-test,swap,615
+f1b-test,other,99
+f1b-test,sandwich,1
+f1b-test,swap,587
 nfactorial,arb,5
 nfactorial,backrun,53
 nfactorial,frontrun,54
-nfactorial,other,416
-nfactorial,sandwich,19
-nfactorial,swap,706
-payload,arb,73
-payload,backrun,121
-payload,frontrun,122
-payload,other,249
+nfactorial,other,344
+nfactorial,sandwich,16
+nfactorial,swap,687
+payload,arb,72
+payload,backrun,115
+payload,frontrun,116
+payload,other,246
 payload,sandwich,4
-payload,swap,975
-rsync-builder,arb,7513
-rsync-builder,backrun,37288
-rsync-builder,frontrun,37632
-rsync-builder,liquid,128
-rsync-builder,other,255067
-rsync-builder,sandwich,2872
-rsync-builder,swap,682678
+payload,swap,935
+rsync-builder,arb,7335
+rsync-builder,backrun,36415
+rsync-builder,frontrun,36753
+rsync-builder,liquid,126
+rsync-builder,other,202397
+rsync-builder,sandwich,2349
+rsync-builder,swap,655420
