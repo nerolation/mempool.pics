@@ -18,6 +18,15 @@ BloXroute,liquid,1
 BloXroute,other,1064
 BloXroute,sandwich,16
 BloXroute,swap,6083
+Blocksmith ,backrun,55
+Blocksmith ,frontrun,57
+Blocksmith ,other,1816
+Blocksmith ,swap,201
+Bob the builder,arb,2
+Bob the builder,backrun,79
+Bob the builder,frontrun,79
+Bob the builder,other,80
+Bob the builder,swap,23
 BuildAI ,arb,524
 BuildAI ,backrun,710
 BuildAI ,frontrun,717
@@ -41,7 +50,7 @@ Flashbots Imposter,swap,21723
 Gambit Labs ,arb,231
 Gambit Labs ,backrun,3126
 Gambit Labs ,frontrun,3148
-Gambit Labs ,other,14052
+Gambit Labs ,other,14053
 Gambit Labs ,sandwich,333
 Gambit Labs ,swap,38725
 Geth Go,arb,49
@@ -57,11 +66,6 @@ Titan Builder,liquid,29
 Titan Builder,other,188932
 Titan Builder,sandwich,2063
 Titan Builder,swap,423093
-antbuilder,arb,1
-antbuilder,backrun,7
-antbuilder,frontrun,7
-antbuilder,other,59
-antbuilder,swap,549
 beaverbuild,arb,6757
 beaverbuild,backrun,35777
 beaverbuild,frontrun,35975
@@ -103,12 +107,6 @@ f1b,liquid,2
 f1b,other,9515
 f1b,sandwich,49
 f1b,swap,29135
-f1b-test,arb,15
-f1b-test,backrun,37
-f1b-test,frontrun,37
-f1b-test,other,160
-f1b-test,sandwich,1
-f1b-test,swap,781
 nfactorial,arb,4
 nfactorial,backrun,51
 nfactorial,frontrun,52
