@@ -55,6 +55,12 @@ mev_type_over_time_chart_mobile = load_chart("chart_mev_type_over_time_mobile")
 xof_types_users_chart = load_chart("chart_xof_types_users")
 xof_types_users_chart_mobile = load_chart("chart_xof_types_users_mobile")
 
+xof_sunburst_chart = load_chart("chart_xof_sunburst")
+xof_sunburst_chart_mobile = load_chart("chart_xof_sunburst_mobile")
+
+xof_pie_chart = load_chart("chart_xof_pie")
+xof_pie_chart_mobile = load_chart("chart_xof_pie_mobile")
+
 df = pd.read_parquet(datafolder+"xof_table")
 df['date'] = pd.to_datetime(df['date'])
 
@@ -215,6 +221,10 @@ app.layout = html.Div(
             ], id='new-content', style={'display': 'none'}),
             
             html.Div([
+                dbc.Row([
+                    dbc.Col(dcc.Graph(id='xof_pie_graph', figure=xof_pie_chart), md=6), 
+                    dbc.Col(dcc.Graph(id='xof_sunburst_graph', figure=xof_sunburst_chart), md=6)
+                ]),
                 dbc.Row(dbc.Col(dcc.Graph(id='xof_over_time_graph', figure=xof_over_time_chart), md=12, className="mb-4 animated fadeIn")),
                 dbc.Row(dbc.Col(dcc.Graph(id='xof_over_time_builder_graph', figure=xof_over_time_builder_chart), md=12, className="mb-4 animated fadeIn")),
                 dbc.Row(dbc.Col(dcc.Graph(id='xof_builder_graph', figure=xof_builder_chart), md=12, className="mb-4 animated fadeIn")),
@@ -377,6 +387,32 @@ def update_layout9(window_size_data):
     if width <= 800:
         return xof_types_users_chart_mobile
     return xof_types_users_chart
+
+@app.callback(
+    Output('xof_sunburst_graph', 'figure'),
+    Input('window-size-store', 'data')
+)
+def update_layout10(window_size_data):
+    if window_size_data is None:
+        raise dash.exceptions.PreventUpdate
+    width = window_size_data['width']
+    print(width)
+    if width <= 800:
+        return xof_sunburst_mobile
+    return xof_sunburst_chart
+
+@app.callback(
+    Output('xof_pie_graph', 'figure'),
+    Input('window-size-store', 'data')
+)
+def update_layout11(window_size_data):
+    if window_size_data is None:
+        raise dash.exceptions.PreventUpdate
+    width = window_size_data['width']
+    print(width)
+    if width <= 800:
+        return xof_pie_chart_mobile
+    return xof_pie_chart
 
 
 @app.callback(
