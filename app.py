@@ -202,7 +202,7 @@ app.layout = html.Div(
                 dbc.Container(
                     [
                        dag.AgGrid(
-                            id="your-table-id",
+                            id="explorer-table-id",
                             columnDefs=columnDefs,
                             rowData=df.to_dict("records"),
                             defaultColDef={"resizable": True, "sortable": True, "filter": True, "flex":1, "floatingFilter": True},

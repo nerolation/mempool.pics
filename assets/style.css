@@ -46,6 +46,13 @@ body {
     .ag-row-even {
         font-size: 8px !important;
     }
+    .ag-header-cell {
+        padding: 0px !important;
+    }
+    .ag-header-cell-text {
+        width:100%;
+        text-align:center;
+    }
 
 }
 .right-align {
