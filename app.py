@@ -77,7 +77,7 @@ columnDefs = [
     {"field": "slot", "filter": True, "cellRenderer": "markdown"},
     {"field": "block_number", "filter": True, "cellRenderer": "markdown"},
     {"field": "tx_hash", "filter": True, "cellRenderer": "markdown"},
-    {"field": "mev_type", "filter": True, "cellRenderer": "markdown"},
+    {"field": "tx_type", "filter": True, "cellRenderer": "markdown"},
     {"field": "builder", "filter": True, "cellRenderer": "markdown"},
     {"field": "address", "filter": True, "cellRenderer": "markdown"},
 ]
