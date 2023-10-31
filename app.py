@@ -61,6 +61,9 @@ xof_sunburst_chart_mobile = load_chart("chart_xof_sunburst_mobile")
 xof_pie_chart = load_chart("chart_xof_pie")
 xof_pie_chart_mobile = load_chart("chart_xof_pie_mobile")
 
+xof_courtesy_density_chart = load_chart("chart_xof_courtesy_density")
+xof_courtesy_density_chart_mobile = load_chart("chart_xof_courtesy_density_mobile")
+
 df = pd.read_parquet(datafolder+"xof_table")
 df['date'] = pd.to_datetime(df['date'])
 
@@ -235,6 +238,7 @@ app.layout = html.Div(
                 dbc.Row(dbc.Col(dcc.Graph(id='mev_type_over_time_graph', figure=mev_type_over_time_chart), md=12, className="mb-4 animated fadeIn")),
 
                 dbc.Row(dbc.Col(dcc.Graph(id='inclusion_delay_graph', figure=inclusion_delay_chart), md=12, className="mb-4 animated fadeIn")),
+                dbc.Row(dbc.Col(dcc.Graph(id='xof_courtesy_density_graph', figure=xof_courtesy_density_chart), md=12, className="mb-4 animated fadeIn")),
                 dbc.Row(dbc.Col(dcc.Graph(id='sankeygraph', figure=sankey_chart), md=12, className="mb-4 animated fadeIn")),
             ], id='main-content'),
 
@@ -413,6 +417,20 @@ def update_layout11(window_size_data):
     if width <= 800:
         return xof_pie_chart_mobile
     return xof_pie_chart
+
+
+@app.callback(
+    Output('xof_courtesy_density_graph', 'figure'),
+    Input('window-size-store', 'data')
+)
+def update_layout12(window_size_data):
+    if window_size_data is None:
+        raise dash.exceptions.PreventUpdate
+    width = window_size_data['width']
+    print(width)
+    if width <= 800:
+        return xof_courtesy_density_chart_mobile
+    return xof_courtesy_density_chart
 
 
 @app.callback(
