@@ -152,16 +152,7 @@ def table_styles(width):
         {'if': {'column_id': 'CL Client'}, 'maxWidth': '80px', 'fontSize': font_size}
     ]
 
-
-
-app.layout = html.Div(
-    [
-        dbc.Container(
-        [
-            # Title
-            dbc.Row(html.H1("Ethereum Mempool Dashboard", style={'textAlign': 'center', 'marginTop': '20px', 'color': '#2c3e50', 'fontFamily': 'Ubuntu Mono, monospace', 'fontWeight': 'bold'}), className="mb-4"),
-            
-            html.Div([
+main_content = [html.Div([
                 dbc.Row([
                     dbc.Col(
                         html.H5(
@@ -171,14 +162,14 @@ app.layout = html.Div(
                         ),
                         width={"size": 6, "order": 1}
                     ),
-                    dbc.Col(
-                        html.H5(
-                        [html.A('Private Order Flow Explorer', href='#', id='to-explorer')],
-                        className="mb-4 even-smaller-text text-right",
-                        style={'textAlign': 'right'}
-                    ),
-                    width={"size": 6, "order": 2}
-                    )
+                    #dbc.Col(
+                    #    html.H5(
+                    #    [html.A('Private Order Flow Explorer', href='#', id='to-explorer')],
+                    #    className="mb-4 even-smaller-text text-right",
+                    #    style={'textAlign': 'right'}
+                    #),
+                    #width={"size": 6, "order": 2}
+                    #)
 
                 ], className="animated fadeInUp", style={"marginBottom": "0px", "paddingBottom": "0px", 'backgroundColor': '#eee', 'fontFamily': 'Ubuntu Mono, monospace'}),
             ]),
@@ -200,7 +191,38 @@ app.layout = html.Div(
                     ], className="mb-2 even-even-smaller-text", md=6)
                 ])
             ], className="mb-2 p-3 rounded", style={'backgroundColor': '#eee'}),
-          
+]
+
+tabs = html.Div(main_content+[
+    dcc.Tabs(id="tabs-styled-with-inline", value='tab-0', children=[
+        dcc.Tab(label='Overview', value='tab-0', children=[
+            
+            html.Div([
+                dbc.Row([
+                    dbc.Col(dcc.Graph(id='xof_pie_graph', figure=xof_pie_chart), md=6), 
+                    dbc.Col(dcc.Graph(id='xof_sunburst_graph', figure=xof_sunburst_chart), md=6),
+                    dbc.Row(dbc.Col(dcc.Graph(id='xof_over_time_graph', figure=xof_over_time_chart), md=12, className="mb-4 animated fadeIn")),
+                    dbc.Row(dbc.Col(dcc.Graph(id='mev_type_over_time_graph', figure=mev_type_over_time_chart), md=12, className="mb-4 animated fadeIn")),
+                    dbc.Row(dbc.Col(dcc.Graph(id='inclusion_delay_graph', figure=inclusion_delay_chart), md=12, className="mb-4 animated fadeIn")),
+                    dbc.Row(dbc.Col(dcc.Graph(id='sankeygraph', figure=sankey_chart), md=12, className="mb-4 animated fadeIn")),
+                ]),
+            ], id='main-content'),
+        
+        ]),
+        dcc.Tab(label='Users', value='tab-1', children=[
+            dbc.Row(dbc.Col(dcc.Graph(id='xof_users_graph', figure=xof_users_chart), md=12, className="mb-4 animated fadeIn")),
+            dbc.Row(dbc.Col(dcc.Graph(id='xof_types_users_chart_graph', figure=xof_types_users_chart), md=12, className="mb-4 animated fadeIn")),
+            dbc.Row(dbc.Col(dcc.Graph(id='xof_courtesy_density_graph', figure=xof_courtesy_density_chart), md=12, className="mb-4 animated fadeIn")),
+            
+
+        ]),
+        dcc.Tab(label='Builders', value='tab-2', children=[
+            dbc.Row(dbc.Col(dcc.Graph(id='xof_over_time_builder_graph', figure=xof_over_time_builder_chart), md=12, className="mb-4 animated fadeIn")),
+            dbc.Row(dbc.Col(dcc.Graph(id='xof_builder_graph', figure=xof_builder_chart), md=12, className="mb-4 animated fadeIn")),
+            dbc.Row(dbc.Col(dcc.Graph(id='xof_builder_mev_type_graph', figure=xof_builder_mev_type_chart), md=12, className="mb-4 animated fadeIn")),
+            
+        ]),
+        dcc.Tab(label='Transaction Explorer', value='tab-3', children=[
             html.Div([
                 dbc.Container(
                     [
@@ -221,28 +243,18 @@ app.layout = html.Div(
                     fluid=True,
                     style={'backgroundColor': '#eee', "width": "100%"}
                 ),
-            ], id='new-content', style={'display': 'none'}),
-            
-            html.Div([
-                dbc.Row([
-                    dbc.Col(dcc.Graph(id='xof_pie_graph', figure=xof_pie_chart), md=6), 
-                    dbc.Col(dcc.Graph(id='xof_sunburst_graph', figure=xof_sunburst_chart), md=6)
-                ]),
-                dbc.Row(dbc.Col(dcc.Graph(id='xof_over_time_graph', figure=xof_over_time_chart), md=12, className="mb-4 animated fadeIn")),
-                dbc.Row(dbc.Col(dcc.Graph(id='xof_over_time_builder_graph', figure=xof_over_time_builder_chart), md=12, className="mb-4 animated fadeIn")),
-                dbc.Row(dbc.Col(dcc.Graph(id='xof_builder_graph', figure=xof_builder_chart), md=12, className="mb-4 animated fadeIn")),
-                dbc.Row(dbc.Col(dcc.Graph(id='xof_users_graph', figure=xof_users_chart), md=12, className="mb-4 animated fadeIn")),
+            ], id='new-content')   
+        ]),
+    ], style={'fontFamily': 'Ubuntu Mono, monospace'}),
+])
 
-                dbc.Row(dbc.Col(dcc.Graph(id='xof_builder_mev_type_graph', figure=xof_builder_mev_type_chart), md=12, className="mb-4 animated fadeIn")),
-                dbc.Row(dbc.Col(dcc.Graph(id='xof_types_users_chart_graph', figure=xof_types_users_chart), md=12, className="mb-4 animated fadeIn")),
-                dbc.Row(dbc.Col(dcc.Graph(id='mev_type_over_time_graph', figure=mev_type_over_time_chart), md=12, className="mb-4 animated fadeIn")),
-
-                dbc.Row(dbc.Col(dcc.Graph(id='inclusion_delay_graph', figure=inclusion_delay_chart), md=12, className="mb-4 animated fadeIn")),
-                dbc.Row(dbc.Col(dcc.Graph(id='xof_courtesy_density_graph', figure=xof_courtesy_density_chart), md=12, className="mb-4 animated fadeIn")),
-                dbc.Row(dbc.Col(dcc.Graph(id='sankeygraph', figure=sankey_chart), md=12, className="mb-4 animated fadeIn")),
-            ], id='main-content'),
-
-
+app.layout = html.Div(
+    [
+        dbc.Container(
+        [
+            # Title
+            dbc.Row(html.H1("Ethereum Mempool Dashboard", style={'textAlign': 'center', 'marginTop': '20px', 'color': '#2c3e50', 'fontFamily': 'Ubuntu Mono, monospace', 'fontWeight': 'bold'}), className="mb-4"),
+            tabs,
             dbc.Row(dcc.Interval(id='window-size-trigger', interval=1000, n_intervals=0, max_intervals=1)),
             dcc.Store(id='window-size-store', data={'width': 800})
         ],
@@ -431,19 +443,6 @@ def update_layout12(window_size_data):
     if width <= 800:
         return xof_courtesy_density_chart_mobile
     return xof_courtesy_density_chart
-
-
-@app.callback(
-    [Output('main-content', 'style'), Output('new-content', 'style'), Output('to-explorer', 'children')],
-    [Input('to-explorer', 'n_clicks')]
-)
-def toggle_view(n):
-    if n and n % 2 == 1:
-        return {'display': 'none'}, {'display': 'block'}, 'Go Back'
-    else:
-        return {'display': 'block'}, {'display': 'none'}, 'Transaction Explorer'
-
-
 
 
 if __name__ == '__main__':
