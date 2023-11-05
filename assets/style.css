@@ -53,8 +53,11 @@ body {
         width:100%;
         text-align:center;
     }
-
+    .tab {
+        padding: 5px 5px !important;
+    }
 }
+
 .right-align {
     text-align: right;
 }
