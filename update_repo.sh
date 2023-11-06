@@ -3,7 +3,7 @@
 #git pull origin main
 
 cd ~/ethereum/mempool.pics-building
-#../bin/python3 zeromevparser.py
+../bin/python3 zeromevparser.py
 ../bin/python3 dataprep.py
 cp -r ./assets/ ./mempool.pics/
 cp -r ./data/ ./mempool.pics/
