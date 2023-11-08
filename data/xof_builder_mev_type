@@ -2,7 +2,7 @@ builder,mev_type,mev_type_count
 0x83bee51799e6513...,arb,78
 0x83bee51799e6513...,backrun,7
 0x83bee51799e6513...,frontrun,7
-0x83bee51799e6513...,other,265
+0x83bee51799e6513...,other,122
 0x83bee51799e6513...,sandwich,7
 0x83bee51799e6513...,swap,312
 Assembled delicat...,arb,126
@@ -37,59 +37,59 @@ Flashbots,arb,1985
 Flashbots,backrun,10162
 Flashbots,frontrun,10259
 Flashbots,liquid,25
-Flashbots,other,178898
+Flashbots,other,163608
 Flashbots,sandwich,831
 Flashbots,swap,206264
 Flashbots Imposter,arb,322
 Flashbots Imposter,backrun,1056
 Flashbots Imposter,frontrun,1052
 Flashbots Imposter,liquid,2
-Flashbots Imposter,other,17731
+Flashbots Imposter,other,16487
 Flashbots Imposter,sandwich,152
 Flashbots Imposter,swap,22760
 Gambit Labs ,arb,195
 Gambit Labs ,backrun,2633
 Gambit Labs ,frontrun,2653
-Gambit Labs ,other,16950
+Gambit Labs ,other,15044
 Gambit Labs ,sandwich,451
 Gambit Labs ,swap,36519
 Geth Go,arb,46
 Geth Go,backrun,27
 Geth Go,frontrun,27
-Geth Go,other,272
+Geth Go,other,155
 Geth Go,sandwich,1
 Geth Go,swap,377
 Titan Builder,arb,4581
 Titan Builder,backrun,21840
 Titan Builder,frontrun,21910
 Titan Builder,liquid,16
-Titan Builder,other,299992
+Titan Builder,other,272670
 Titan Builder,sandwich,2047
 Titan Builder,swap,354224
 beaverbuild,arb,6139
 beaverbuild,backrun,30469
 beaverbuild,frontrun,30647
 beaverbuild,liquid,84
-beaverbuild,other,408019
+beaverbuild,other,366398
 beaverbuild,sandwich,2416
 beaverbuild,swap,510196
 boba-builder,arb,181
 boba-builder,backrun,676
 boba-builder,frontrun,682
-boba-builder,other,1724
+boba-builder,other,1541
 boba-builder,sandwich,42
 boba-builder,swap,1675
 builder0x69,arb,801
 builder0x69,backrun,4979
 builder0x69,frontrun,5031
 builder0x69,liquid,4
-builder0x69,other,75598
+builder0x69,other,68746
 builder0x69,sandwich,171
 builder0x69,swap,67337
 edennetwork,arb,10
 edennetwork,backrun,131
 edennetwork,frontrun,130
-edennetwork,other,393
+edennetwork,other,324
 edennetwork,sandwich,13
 edennetwork,swap,1393
 eth-builder,arb,148
@@ -103,7 +103,7 @@ f1b,arb,314
 f1b,backrun,2051
 f1b,frontrun,2076
 f1b,liquid,1
-f1b,other,8399
+f1b,other,8057
 f1b,sandwich,46
 f1b,swap,18294
 f1b-test,arb,15
@@ -122,6 +122,6 @@ rsync-builder,arb,6715
 rsync-builder,backrun,30224
 rsync-builder,frontrun,30554
 rsync-builder,liquid,99
-rsync-builder,other,398740
+rsync-builder,other,361498
 rsync-builder,sandwich,2367
 rsync-builder,swap,583853
