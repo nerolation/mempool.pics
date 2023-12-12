@@ -64,8 +64,8 @@ xof_pie_chart_mobile = load_chart("chart_xof_pie_mobile")
 xof_courtesy_density_chart = load_chart("chart_xof_courtesy_density")
 xof_courtesy_density_chart_mobile = load_chart("chart_xof_courtesy_density_mobile")
 
-df = pd.read_parquet(datafolder+"xof_table")
-df['date'] = pd.to_datetime(df['date'])
+#df = pd.read_parquet(datafolder+"xof_table")
+#df['date'] = pd.to_datetime(df['date'])
 
 
 BLACK = "rgb(26, 25, 25)"
@@ -140,17 +140,17 @@ app.clientside_callback(
 app.title = 'Mempool.pics'
 server = app.server
 
-def table_styles(width):
-    font_size = '20px' if width >= 800 else '10px'
-
-    return [
-        {'if': {'column_id': 'Slot Nr. in Epoch'}, 'maxWidth': '30px', 'textAlign': 'center', 'fontSize': font_size},
-        {'if': {'column_id': 'Slot'}, 'textAlign': 'right', 'maxWidth': '40px', 'fontSize': font_size},
-        {'if': {'column_id': 'Parent Slot'}, 'textAlign': 'center', 'maxWidth': '40px', 'fontSize': font_size},
-        {'if': {'column_id': 'Val. ID'}, 'maxWidth': '30px', 'fontSize': font_size},
-        {'if': {'column_id': 'Date'}, 'maxWidth': '80px', 'fontSize': font_size},
-        {'if': {'column_id': 'CL Client'}, 'maxWidth': '80px', 'fontSize': font_size}
-    ]
+#def table_styles(width):
+#    font_size = '20px' if width >= 800 else '10px'
+#
+#    return [
+#        {'if': {'column_id': 'Slot Nr. in Epoch'}, 'maxWidth': '30px', 'textAlign': 'center', 'fontSize': font_size},
+#        {'if': {'column_id': 'Slot'}, 'textAlign': 'right', 'maxWidth': '40px', 'fontSize': font_size},
+#        {'if': {'column_id': 'Parent Slot'}, 'textAlign': 'center', 'maxWidth': '40px', 'fontSize': font_size},
+#        {'if': {'column_id': 'Val. ID'}, 'maxWidth': '30px', 'fontSize': font_size},
+#        {'if': {'column_id': 'Date'}, 'maxWidth': '80px', 'fontSize': font_size},
+#        {'if': {'column_id': 'CL Client'}, 'maxWidth': '80px', 'fontSize': font_size}
+#    ]
 
 main_content = [html.Div([
                 dbc.Row([
@@ -222,29 +222,29 @@ tabs = html.Div(main_content+[
             dbc.Row(dbc.Col(dcc.Graph(id='xof_builder_mev_type_graph', figure=xof_builder_mev_type_chart), md=12, className="mb-4 animated fadeIn")),
             
         ]),
-        dcc.Tab(label='Transaction Explorer', value='tab-3', children=[
-            html.Div([
-                dbc.Container(
-                    [
-                       dag.AgGrid(
-                            id="explorer-table-id",
-                            columnDefs=columnDefs,
-                            rowData=df.to_dict("records"),
-                            defaultColDef={"resizable": True, "sortable": True, "filter": True, "flex":1, "floatingFilter": True},
-                           columnSize= "sizeToFit",
-                           dashGridOptions={
-                                "rowHeight": 20,
-                                "pagination": True,  
-                                "paginationPageSize": 50,
-                            },    
-                        )
-                    ],
-                    id='table-container',
-                    fluid=True,
-                    style={'backgroundColor': '#eee', "width": "100%"}
-                ),
-            ], id='new-content')   
-        ]),
+        #dcc.Tab(label='Transaction Explorer', value='tab-3', children=[
+        #    html.Div([
+        #        dbc.Container(
+        #            [
+        #               dag.AgGrid(
+        #                    id="explorer-table-id",
+        #                    columnDefs=columnDefs,
+        #                    rowData=df.to_dict("records"),
+        #                    defaultColDef={"resizable": True, "sortable": True, "filter": True, "flex":1, "floatingFilter": True},
+        #                   columnSize= "sizeToFit",
+        #                   dashGridOptions={
+        #                        "rowHeight": 20,
+        #                        "pagination": True,  
+        #                        "paginationPageSize": 50,
+        #                    },    
+        #                )
+        #            ],
+        #            id='table-container',
+        #            fluid=True,
+        #            style={'backgroundColor': '#eee', "width": "100%"}
+        #        ),
+        #    ], id='new-content')   
+        #]),
     ], style={'fontFamily': 'Ubuntu Mono, monospace'}),
 ])
 
