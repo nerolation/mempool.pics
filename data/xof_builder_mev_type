@@ -1,129 +1,130 @@
 builder,mev_type,mev_type_count
-@penguinbuild,arb,110
-@penguinbuild,backrun,2052
-@penguinbuild,frontrun,2057
-@penguinbuild,other,64258
-@penguinbuild,sandwich,93
-@penguinbuild,swap,15463
-BloXroute,arb,16
-BloXroute,backrun,26
-BloXroute,frontrun,27
+@penguinbuild,arb,122
+@penguinbuild,backrun,2401
+@penguinbuild,frontrun,2403
+@penguinbuild,other,58361
+@penguinbuild,sandwich,122
+@penguinbuild,swap,17161
+BloXroute,arb,26
+BloXroute,backrun,183
+BloXroute,frontrun,195
 BloXroute,liquid,1
-BloXroute,other,4041
-BloXroute,swap,582
-Bob the builder,backrun,38
-Bob the builder,frontrun,39
-Bob the builder,other,409
-Bob the builder,sandwich,2
-Bob the builder,swap,42
-BuildAI ,arb,104
-BuildAI ,backrun,201
-BuildAI ,frontrun,202
-BuildAI ,other,8895
-BuildAI ,sandwich,14
-BuildAI ,swap,1385
-Flashbots,arb,621
-Flashbots,backrun,2089
-Flashbots,frontrun,2090
-Flashbots,liquid,13
-Flashbots,other,160269
-Flashbots,sandwich,157
-Flashbots,swap,33750
-Gambit Labs ,arb,113
-Gambit Labs ,backrun,784
-Gambit Labs ,frontrun,807
-Gambit Labs ,other,76911
-Gambit Labs ,sandwich,55
-Gambit Labs ,swap,11089
-I can haz block?,arb,99
-I can haz block?,backrun,3
-I can haz block?,frontrun,3
-I can haz block?,liquid,8
-I can haz block?,other,465
+BloXroute,other,3990
+BloXroute,sandwich,4
+BloXroute,swap,1611
+Bob the builder,backrun,54
+Bob the builder,frontrun,55
+Bob the builder,other,403
+Bob the builder,sandwich,3
+Bob the builder,swap,58
+BuildAI ,arb,129
+BuildAI ,backrun,251
+BuildAI ,frontrun,252
+BuildAI ,other,6018
+BuildAI ,sandwich,19
+BuildAI ,swap,1694
+Flashbots,arb,799
+Flashbots,backrun,2797
+Flashbots,frontrun,2790
+Flashbots,liquid,14
+Flashbots,other,151179
+Flashbots,sandwich,240
+Flashbots,swap,44864
+Gambit Labs ,arb,132
+Gambit Labs ,backrun,1052
+Gambit Labs ,frontrun,1092
+Gambit Labs ,other,50312
+Gambit Labs ,sandwich,89
+Gambit Labs ,swap,13414
+I can haz block?,arb,93
+I can haz block?,backrun,2
+I can haz block?,frontrun,2
+I can haz block?,liquid,10
+I can haz block?,other,459
 I can haz block?,sandwich,2
-I can haz block?,swap,330
-Titan Builder,arb,1942
-Titan Builder,backrun,11482
-Titan Builder,frontrun,11459
-Titan Builder,liquid,14
-Titan Builder,other,922492
-Titan Builder,sandwich,1018
-Titan Builder,swap,165294
-beaverbuild,arb,4031
-beaverbuild,backrun,26461
-beaverbuild,frontrun,26512
-beaverbuild,liquid,112
-beaverbuild,other,1438497
-beaverbuild,sandwich,2213
-beaverbuild,swap,474553
-boba-builder,arb,9
-boba-builder,backrun,186
-boba-builder,frontrun,185
-boba-builder,other,3307
-boba-builder,sandwich,26
-boba-builder,swap,379
-builder0x69,arb,183
-builder0x69,backrun,1091
-builder0x69,frontrun,1077
+I can haz block?,swap,181
+Titan Builder,arb,2835
+Titan Builder,backrun,16316
+Titan Builder,frontrun,16364
+Titan Builder,liquid,19
+Titan Builder,other,884577
+Titan Builder,sandwich,1708
+Titan Builder,swap,235274
+beaverbuild,arb,5546
+beaverbuild,backrun,36794
+beaverbuild,frontrun,36901
+beaverbuild,liquid,124
+beaverbuild,other,1319356
+beaverbuild,sandwich,4086
+beaverbuild,swap,636027
+blockbeelder.com ...,arb,10
+blockbeelder.com ...,backrun,29
+blockbeelder.com ...,frontrun,28
+blockbeelder.com ...,other,1951
+blockbeelder.com ...,sandwich,2
+blockbeelder.com ...,swap,531
+boba-builder,arb,12
+boba-builder,backrun,230
+boba-builder,frontrun,229
+boba-builder,other,2483
+boba-builder,sandwich,29
+boba-builder,swap,469
+builder0x69,arb,200
+builder0x69,backrun,1218
+builder0x69,frontrun,1204
 builder0x69,liquid,2
-builder0x69,other,36913
-builder0x69,sandwich,87
-builder0x69,swap,16949
-edennetwork,arb,16
-edennetwork,backrun,103
-edennetwork,frontrun,104
-edennetwork,other,14956
-edennetwork,sandwich,7
-edennetwork,swap,727
-eth-builder,arb,55
-eth-builder,backrun,22
-eth-builder,frontrun,23
+builder0x69,other,35214
+builder0x69,sandwich,115
+builder0x69,swap,18016
+edennetwork,arb,24
+edennetwork,backrun,147
+edennetwork,frontrun,149
+edennetwork,other,9976
+edennetwork,sandwich,8
+edennetwork,swap,941
+eth-builder,arb,53
+eth-builder,backrun,27
+eth-builder,frontrun,27
 eth-builder,liquid,1
-eth-builder,other,1909
+eth-builder,other,1331
 eth-builder,sandwich,3
-eth-builder,swap,551
-f1b,arb,118
-f1b,backrun,1268
-f1b,frontrun,1270
+eth-builder,swap,607
+f1b,arb,165
+f1b,backrun,1856
+f1b,frontrun,1874
 f1b,liquid,1
-f1b,other,83955
-f1b,sandwich,86
-f1b,swap,12521
-from f1b,arb,7
-from f1b,backrun,99
-from f1b,frontrun,99
-from f1b,other,756
-from f1b,sandwich,3
-from f1b,swap,1028
-jetbldr,arb,412
-jetbldr,backrun,2634
-jetbldr,frontrun,2688
+f1b,other,73143
+f1b,sandwich,144
+f1b,swap,17976
+jetbldr,arb,447
+jetbldr,backrun,3174
+jetbldr,frontrun,3248
 jetbldr,liquid,1
-jetbldr,other,141946
-jetbldr,sandwich,96
-jetbldr,swap,43093
-lokibuilder,arb,30
-lokibuilder,backrun,180
-lokibuilder,frontrun,177
-lokibuilder,other,19801
-lokibuilder,sandwich,9
-lokibuilder,swap,3020
-penguinbuild,arb,69
-penguinbuild,backrun,1324
-penguinbuild,frontrun,1335
-penguinbuild,other,28875
-penguinbuild,sandwich,24
-penguinbuild,swap,9638
-rpc.tbuilder,arb,81
-rpc.tbuilder,backrun,556
-rpc.tbuilder,frontrun,564
-rpc.tbuilder,other,42111
-rpc.tbuilder,sandwich,32
-rpc.tbuilder,swap,7582
-rsync-builder,arb,3617
-rsync-builder,backrun,14187
-rsync-builder,frontrun,14192
-rsync-builder,liquid,76
-rsync-builder,other,661180
-rsync-builder,sandwich,898
-rsync-builder,swap,315229
+jetbldr,other,92258
+jetbldr,sandwich,118
+jetbldr,swap,50759
+lokibuilder,arb,36
+lokibuilder,backrun,236
+lokibuilder,frontrun,241
+lokibuilder,other,15648
+lokibuilder,sandwich,12
+lokibuilder,swap,4228
+penguinbuild,arb,77
+penguinbuild,backrun,1561
+penguinbuild,frontrun,1569
+penguinbuild,other,19173
+penguinbuild,sandwich,34
+penguinbuild,swap,10586
+rpc.tbuilder,arb,102
+rpc.tbuilder,backrun,762
+rpc.tbuilder,frontrun,785
+rpc.tbuilder,other,38973
+rpc.tbuilder,sandwich,58
+rpc.tbuilder,swap,10857
+rsync-builder,arb,3923
+rsync-builder,backrun,15859
+rsync-builder,frontrun,15920
+rsync-builder,liquid,79
+rsync-builder,other,603306
+rsync-builder,sandwich,1142
+rsync-builder,swap,346015
